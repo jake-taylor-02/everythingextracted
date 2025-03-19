@@ -89,7 +89,7 @@ export default function BlogPostPage() {
 
           <div className="prose prose-stone max-w-none">
             <p className="lead">
-              Five years ago, I was a casual coffee drinker who thought a $20 drip machine from the department store was
+              Six years ago, I was a casual coffee drinker who thought a $20 drip machine from the department store was
               good enough. I'd dump pre-ground coffee from a can into the filter, press a button, and accept whatever
               came out. Little did I know I was about to embark on a journey that would transform not just my mornings,
               but my entire relationship with coffee.
