@@ -1,10 +1,53 @@
 import Link from "next/link"
-import { ArrowLeft, Calendar, Clock } from "lucide-react"
+import { ArrowLeft, Globe, BookOpen, Headphones, FileText } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 
-export default function BlogPage() {
+export default function ResourcesPage() {
+  const resources = [
+    {
+      name: "Websites",
+      slug: "websites",
+      description: "Online resources for coffee and tea enthusiasts",
+      content:
+        "Discover the best websites, blogs, and online communities dedicated to brewing, tasting, and learning about coffee and tea.",
+      icon: <Globe className="h-5 w-5" style={{ color: "#EB5353" }} />,
+      action: "Browse Websites",
+      accentColor: "#EB5353",
+    },
+    {
+      name: "Podcasts",
+      slug: "podcasts",
+      description: "Audio content for your brewing journey",
+      content:
+        "Listen to experts discuss brewing techniques, interview industry professionals, and share insights about coffee and tea culture.",
+      icon: <Headphones className="h-5 w-5" style={{ color: "#F9D923" }} />,
+      action: "Discover Podcasts",
+      accentColor: "#F9D923",
+    },
+    {
+      name: "Books",
+      slug: "books",
+      description: "Essential reading for coffee and tea lovers",
+      content:
+        "Explore recommended books covering everything from brewing fundamentals to deep dives into the history, science, and culture of coffee and tea.",
+      icon: <BookOpen className="h-5 w-5" style={{ color: "#36AE7C" }} />,
+      action: "View Book List",
+      accentColor: "#36AE7C",
+    },
+    {
+      name: "Academic Articles",
+      slug: "academic-articles",
+      description: "Research and scientific studies",
+      content:
+        "Access peer-reviewed research papers and academic studies on the chemistry, health effects, and agricultural aspects of coffee and tea.",
+      icon: <FileText className="h-5 w-5" style={{ color: "#187498" }} />,
+      action: "Browse Research",
+      accentColor: "#187498",
+    },
+  ]
+
   return (
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-10 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -13,10 +56,10 @@ export default function BlogPage() {
             everythingextracted.com
           </Link>
           <nav className="hidden md:flex gap-6">
-            <Link href="/resources" className="text-sm font-medium hover:text-primary">
+            <Link href="/resources" className="text-sm font-medium text-primary">
               Useful Resources
             </Link>
-            <Link href="/blog" className="text-sm font-medium text-primary">
+            <Link href="/blog" className="text-sm font-medium hover:text-primary">
               Blog
             </Link>
             <Link href="/the-information-zone" className="text-sm font-medium hover:text-primary">
@@ -33,39 +76,31 @@ export default function BlogPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  The everythingextracted blog
-                </h1>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Useful Resources</h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  Deep dives, investigations, and general things I find interesting
+                  A curated collection of the best coffee and tea resources.
                 </p>
               </div>
             </div>
 
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {blogPosts.map((post, index) => (
-                <Link key={index} href={`/blog/${post.slug}`} className="group">
+              {resources.map((resource) => (
+                <Link key={resource.name} href={`/resources/${resource.slug}`} className="group">
                   <Card className="overflow-hidden h-[360px] flex flex-col transition-all hover:shadow-md hover:-translate-y-1 duration-200">
                     <CardHeader className="pb-2">
-                      <div className="flex items-center justify-between">
-                        <CardTitle>{post.title}</CardTitle>
+                      <div className="flex items-center gap-2">
+                        {resource.icon}
+                        <CardTitle>{resource.name}</CardTitle>
                       </div>
-                      <div className="flex items-center gap-2 text-xs text-muted-foreground mt-1">
-                        <Calendar className="h-3 w-3" />
-                        <span>{post.date}</span>
-                      </div>
-                      <div className="h-0.5 w-12 bg-blue-500 mt-2"></div>
+                      <CardDescription>{resource.description}</CardDescription>
+                      <div className="h-0.5 w-12 mt-2" style={{ backgroundColor: resource.accentColor }}></div>
                     </CardHeader>
                     <CardContent className="p-4 flex-grow">
-                      <p className="text-sm text-muted-foreground line-clamp-4">{post.excerpt}</p>
+                      <p className="text-sm text-muted-foreground line-clamp-3">{resource.content}</p>
                     </CardContent>
                     <CardFooter className="p-4 mt-auto">
                       <Button variant="ghost" className="w-full justify-between group-hover:bg-muted/50">
-                        <div className="flex items-center">
-                          <Clock className="h-3 w-3 mr-1" />
-                          <span className="text-xs">{post.readTime} min read</span>
-                        </div>
-                        <span>Read More</span>
+                        {resource.action}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -107,10 +142,10 @@ export default function BlogPage() {
             </Link>
           </div>
           <nav className="flex gap-4 text-sm">
-            <Link href="/resources" className="text-muted-foreground hover:text-foreground">
+            <Link href="/resources" className="text-primary font-medium">
               Useful Resources
             </Link>
-            <Link href="/blog" className="text-primary font-medium">
+            <Link href="/blog" className="text-muted-foreground hover:text-foreground">
               Blog
             </Link>
             <Link href="/the-information-zone" className="text-muted-foreground hover:text-foreground">
@@ -125,48 +160,3 @@ export default function BlogPage() {
     </div>
   )
 }
-
-const blogPosts = [
-  {
-    title: "My Journey to Finding the Perfect Brew",
-    slug: "journey-to-perfect-brew",
-    subtitle: "A personal exploration through coffee varieties",
-    date: "March 20, 2023",
-    author: "Alex Johnson",
-    authorImage: "/placeholder.svg?height=40&width=40",
-    category: "Coffee",
-    gradientFrom: "#d4a373",
-    gradientTo: "#faedcd",
-    excerpt:
-      "After years of mediocre coffee, I embarked on a journey to discover what makes the perfect cup. This is what I learned along the way.",
-    readTime: 8,
-  },
-  {
-    title: "Tea Ceremonies Around the World",
-    slug: "tea-ceremonies-around-world",
-    subtitle: "Cultural traditions and their meanings",
-    date: "March 5, 2023",
-    author: "Mei Lin",
-    authorImage: "/placeholder.svg?height=40&width=40",
-    category: "Tea",
-    gradientFrom: "#4c956c",
-    gradientTo: "#d8f3dc",
-    excerpt:
-      "From Japan's meticulous matcha preparation to Morocco's theatrical mint tea pouring, I explore how tea ceremonies reflect cultural values and bring people together.",
-    readTime: 6,
-  },
-  {
-    title: "Sample Post",
-    slug: "sample-post",
-    subtitle: "A template for creating new blog posts",
-    date: "March 15, 2023",
-    author: "Alex Johnson",
-    authorImage: "/placeholder.svg?height=40&width=40",
-    category: "Coffee",
-    gradientFrom: "#f59e0b",
-    gradientTo: "#fef3c7",
-    excerpt:
-      "This is a sample blog post that demonstrates various elements like paragraphs, images, tables, and information boxes that you can use as a template for future posts.",
-    readTime: 6,
-  },
-]

@@ -1,29 +1,28 @@
 import Link from "next/link"
-import { ArrowLeft, Calendar, Coffee, Clock, ChevronLeft } from "lucide-react"
+import { ArrowLeft, Calendar, Clock, ChevronLeft } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Badge } from "@/components/ui/badge"
-import { Separator } from "@/components/ui/separator"
 
 export default function BlogPostPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-10 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between py-4">
-          <Link href="/" className="flex items-center gap-2 text-lg font-bold">
-            <Coffee className="h-6 w-6 text-emerald-600" />
-            <span>Everything Extracted</span>
+          <Link href="/" className="text-lg font-bold">
+            everythingextracted.com
           </Link>
           <nav className="hidden md:flex gap-6">
-            <Link href="/articles" className="text-sm font-medium hover:text-primary">
-              Articles
+            <Link href="/resources" className="text-sm font-medium hover:text-primary">
+              Useful Resources
             </Link>
             <Link href="/blog" className="text-sm font-medium text-primary">
               Blog
             </Link>
-            <Link href="/data" className="text-sm font-medium hover:text-primary">
-              Experimental Data
+            <Link href="/the-information-zone" className="text-sm font-medium hover:text-primary">
+              The Information Zone
+            </Link>
+            <Link href="/about" className="text-sm font-medium hover:text-primary">
+              About
             </Link>
           </nav>
           <Button variant="ghost" size="icon" className="md:hidden">
@@ -57,39 +56,25 @@ export default function BlogPostPage() {
           </div>
 
           <div className="mb-8">
-            <div
-              className="h-64 w-full rounded-lg bg-gradient-to-br from-emerald-500 to-emerald-100 mb-8 flex items-end p-6"
-              style={{
-                backgroundImage: "linear-gradient(to bottom right, #10b981, #d1fae5)",
-              }}
-            >
-              <div className="flex items-center gap-4">
-                <Avatar className="h-12 w-12 border-2 border-white">
-                  <AvatarImage src="/placeholder.svg?height=48&width=48" />
-                  <AvatarFallback>AJ</AvatarFallback>
-                </Avatar>
-                <div className="text-white">
-                  <div className="text-lg font-medium">Alex Johnson</div>
-                  <div className="flex items-center text-sm">
-                    <Calendar className="mr-1 h-4 w-4" />
-                    March 20, 2023
-                    <span className="mx-2">•</span>
-                    <Clock className="mr-1 h-4 w-4" />8 min read
-                  </div>
-                </div>
-              </div>
-            </div>
-
             <h1 className="text-4xl font-bold tracking-tight mb-2">My Journey to Finding the Perfect Brew</h1>
             <p className="text-xl text-muted-foreground mb-4">
               A personal exploration through coffee varieties and brewing methods
             </p>
-            <Badge className="bg-emerald-500">Coffee</Badge>
+
+            {/* Date and Reading Time */}
+            <div className="flex items-center text-sm text-muted-foreground mb-4">
+              <Calendar className="mr-1 h-4 w-4" />
+              March 20, 2023
+              <span className="mx-2">•</span>
+              <Clock className="mr-1 h-4 w-4" />8 min read
+            </div>
+
+            {/* Remove the Badge component */}
           </div>
 
           <div className="prose prose-stone max-w-none">
             <p className="lead">
-              Six years ago, I was a casual coffee drinker who thought a $20 drip machine from the department store was
+              Five years ago, I was a casual coffee drinker who thought a $20 drip machine from the department store was
               good enough. I'd dump pre-ground coffee from a can into the filter, press a button, and accept whatever
               came out. Little did I know I was about to embark on a journey that would transform not just my mornings,
               but my entire relationship with coffee.
@@ -294,132 +279,6 @@ export default function BlogPostPage() {
             </p>
           </div>
 
-          <Separator className="my-10" />
-
-          <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-6 sm:space-y-0">
-            <div className="flex-1">
-              <h3 className="text-lg font-medium mb-2">About the Author</h3>
-              <div className="flex items-start space-x-4">
-                <Avatar className="h-10 w-10">
-                  <AvatarImage src="/placeholder.svg?height=40&width=40" />
-                  <AvatarFallback>AJ</AvatarFallback>
-                </Avatar>
-                <div>
-                  <p className="font-medium">Alex Johnson</p>
-                  <p className="text-sm text-muted-foreground">
-                    Coffee enthusiast, home barista, and software developer based in Portland. Writes about coffee,
-                    brewing techniques, and the perfect cup.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="flex-1">
-              <h3 className="text-lg font-medium mb-2">Share this post</h3>
-              <div className="flex space-x-2">
-                <Button variant="outline" size="icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-4 w-4"
-                  >
-                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                  </svg>
-                  <span className="sr-only">Share on Facebook</span>
-                </Button>
-                <Button variant="outline" size="icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-4 w-4"
-                  >
-                    <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
-                  </svg>
-                  <span className="sr-only">Share on Twitter</span>
-                </Button>
-                <Button variant="outline" size="icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-4 w-4"
-                  >
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                    <rect width="4" height="12" x="2" y="9"></rect>
-                    <circle cx="4" cy="4" r="2"></circle>
-                  </svg>
-                  <span className="sr-only">Share on LinkedIn</span>
-                </Button>
-                <Button variant="outline" size="icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-4 w-4"
-                  >
-                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
-                  </svg>
-                  <span className="sr-only">Share on Instagram</span>
-                </Button>
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-10">
-            <h3 className="text-lg font-medium mb-4">Related Posts</h3>
-            <div className="grid gap-6 sm:grid-cols-2">
-              <Link href="/blog/coffee-shop-hopping-portland" className="group block">
-                <div className="space-y-2">
-                  <div className="h-40 rounded-lg bg-gradient-to-br from-blue-400 to-blue-100 group-hover:opacity-90 transition-opacity"></div>
-                  <h4 className="font-medium group-hover:text-primary transition-colors">
-                    Coffee Shop Hopping in Portland
-                  </h4>
-                  <p className="text-sm text-muted-foreground">
-                    A tour of the city's best cafes and their unique offerings
-                  </p>
-                </div>
-              </Link>
-              <Link href="/blog/switched-from-coffee-to-tea" className="group block">
-                <div className="space-y-2">
-                  <div className="h-40 rounded-lg bg-gradient-to-br from-green-400 to-green-100 group-hover:opacity-90 transition-opacity"></div>
-                  <h4 className="font-medium group-hover:text-primary transition-colors">
-                    How I Switched from Coffee to Tea
-                  </h4>
-                  <p className="text-sm text-muted-foreground">
-                    A caffeine journey and the surprising benefits of making the switch
-                  </p>
-                </div>
-              </Link>
-            </div>
-          </div>
-
           <div className="mt-10 flex justify-center">
             <Button asChild variant="outline" className="gap-2">
               <Link href="/blog">
@@ -433,21 +292,22 @@ export default function BlogPostPage() {
       <footer className="border-t bg-muted/40">
         <div className="container flex flex-col gap-2 py-6 md:flex-row md:items-center md:justify-between md:py-8">
           <div className="flex flex-col gap-1">
-            <Link href="/" className="flex items-center gap-1 text-lg font-semibold">
-              <Coffee className="h-5 w-5 text-emerald-600" />
-              <span>Everything Extracted</span>
+            <Link href="/" className="text-lg font-semibold">
+              everythingextracted.com
             </Link>
-            <p className="text-xs text-muted-foreground">Comprehensive brewing knowledge, from bean to cup.</p>
           </div>
           <nav className="flex gap-4 text-sm">
-            <Link href="/articles" className="text-muted-foreground hover:text-foreground">
-              Articles
+            <Link href="/resources" className="text-muted-foreground hover:text-foreground">
+              Useful Resources
             </Link>
             <Link href="/blog" className="text-primary font-medium">
               Blog
             </Link>
-            <Link href="/data" className="text-muted-foreground hover:text-foreground">
-              Data
+            <Link href="/the-information-zone" className="text-muted-foreground hover:text-foreground">
+              The Information Zone
+            </Link>
+            <Link href="/about" className="text-muted-foreground hover:text-foreground">
+              About
             </Link>
           </nav>
         </div>
@@ -455,4 +315,3 @@ export default function BlogPostPage() {
     </div>
   )
 }
-

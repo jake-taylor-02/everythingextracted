@@ -13,6 +13,10 @@ const merriweather = Merriweather({
 export const metadata: Metadata = {
   title: "everythingextracted.com",
   description: "Comprehensive brewing knowledge, from bean to cup.",
+  icons: {
+    icon: "/icon_everything_extracted.png",
+    apple: "/icon_everything_extracted.png",
+  },
     generator: 'v0.dev'
 }
 
@@ -31,7 +35,6 @@ export default function RootLayout({
     </html>
   )
 }
-
 
 
 import './globals.css'

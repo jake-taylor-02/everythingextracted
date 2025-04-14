@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { ArrowLeft, Coffee, Download, ExternalLink } from "lucide-react"
+import { ArrowLeft, Download, ExternalLink } from "lucide-react"
 import { Bar, BarChart, CartesianGrid, Line, LineChart, XAxis, YAxis } from "recharts"
 
 import { Button } from "@/components/ui/button"
@@ -15,19 +15,21 @@ export default function DataPage() {
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-10 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between py-4">
-          <Link href="/" className="flex items-center gap-2 text-lg font-bold">
-            <Coffee className="h-6 w-6 text-emerald-600" />
-            <span>Everything Extracted</span>
+          <Link href="/" className="text-lg font-bold">
+            everythingextracted.com
           </Link>
           <nav className="hidden md:flex gap-6">
-            <Link href="/articles" className="text-sm font-medium hover:text-primary">
-              Articles
+            <Link href="/resources" className="text-sm font-medium hover:text-primary">
+              Useful Resources
             </Link>
             <Link href="/blog" className="text-sm font-medium hover:text-primary">
               Blog
             </Link>
-            <Link href="/data" className="text-sm font-medium text-primary">
-              Experimental Data
+            <Link href="/whats-in-my-cup" className="text-sm font-medium hover:text-primary">
+              What's In My Cup
+            </Link>
+            <Link href="/about" className="text-sm font-medium hover:text-primary">
+              About
             </Link>
           </nav>
           <Button variant="ghost" size="icon" className="md:hidden">
@@ -52,7 +54,7 @@ export default function DataPage() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-purple-50 to-white">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -345,21 +347,23 @@ export default function DataPage() {
       <footer className="border-t bg-muted/40">
         <div className="container flex flex-col gap-2 py-6 md:flex-row md:items-center md:justify-between md:py-8">
           <div className="flex flex-col gap-1">
-            <Link href="/" className="flex items-center gap-1 text-lg font-semibold">
-              <Coffee className="h-5 w-5 text-emerald-600" />
-              <span>Everything Extracted</span>
+            <Link href="/" className="text-lg font-semibold">
+              everythingextracted.com
             </Link>
             <p className="text-xs text-muted-foreground">Comprehensive brewing knowledge, from bean to cup.</p>
           </div>
           <nav className="flex gap-4 text-sm">
-            <Link href="/articles" className="text-muted-foreground hover:text-foreground">
-              Articles
+            <Link href="/resources" className="text-muted-foreground hover:text-foreground">
+              Useful Resources
             </Link>
             <Link href="/blog" className="text-muted-foreground hover:text-foreground">
               Blog
             </Link>
-            <Link href="/data" className="text-primary font-medium">
-              Data
+            <Link href="/whats-in-my-cup" className="text-muted-foreground hover:text-foreground">
+              What's In My Cup
+            </Link>
+            <Link href="/about" className="text-muted-foreground hover:text-foreground">
+              About
             </Link>
           </nav>
         </div>
@@ -454,4 +458,3 @@ const flavorData = [
     nuttiness: 8,
   },
 ]
-
