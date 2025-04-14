@@ -222,30 +222,6 @@ export default function InformationZonePage() {
           </div>
         </section>
       </main>
-      <footer className="border-t bg-muted/40">
-        <div className="container flex flex-col gap-2 py-6 md:flex-row md:items-center md:justify-between md:py-8">
-          <div className="flex flex-col gap-1">
-            <Link href="/" className="text-lg font-semibold">
-              everythingextracted.com
-            </Link>
-            <p className="text-xs text-muted-foreground">Comprehensive brewing knowledge, from bean to cup.</p>
-          </div>
-          <nav className="flex gap-4 text-sm">
-            <Link href="/resources" className="text-muted-foreground hover:text-foreground">
-              Useful Resources
-            </Link>
-            <Link href="/blog" className="text-muted-foreground hover:text-foreground">
-              Blog
-            </Link>
-            <Link href="/the-information-zone" className="text-primary font-medium">
-              The Information Zone
-            </Link>
-            <Link href="/about" className="text-muted-foreground hover:text-foreground">
-              About
-            </Link>
-          </nav>
-        </div>
-      </footer>
     </div>
   )
 }
