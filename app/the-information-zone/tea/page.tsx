@@ -41,8 +41,7 @@ export default function TeaPage() {
 
             <div className="prose prose-gray max-w-3xl mx-auto">
               <p className="text-center text-muted-foreground italic">
-                This article is coming soon. We'll be covering topics like tea varieties, brewing techniques, flavor
-                profiles, and the science behind what makes tea so special.
+                This section is coming soon.
               </p>
             </div>
 

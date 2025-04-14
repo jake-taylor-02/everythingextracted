@@ -39,9 +39,7 @@ export default function CoffeeBeansPage() {
 
             <div className="prose prose-gray max-w-3xl mx-auto">
               <p className="text-center text-muted-foreground italic">
-                This section is coming soon. We're currently working on comprehensive content about coffee beans,
-                including information on single origin beans, roast levels, processing methods, bean varieties,
-                freshness & storage, and buying guides.
+                This section is coming soon.
               </p>
             </div>
 

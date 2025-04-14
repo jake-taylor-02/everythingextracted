@@ -44,7 +44,7 @@ export default function AboutPage() {
                   <CardTitle>Jake Taylor</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <div className="flex flex-col items-center gap-4 sm:flex-row">
+                  <div className="flex flex-col gap-4 sm:flex-row">
                     <div>
                       <h3 className="text-lg font-medium">Barista</h3>
                       <p className="text-sm text-muted-foreground">London, United Kingdom</p>
@@ -128,7 +128,8 @@ export default function AboutPage() {
                         <div className="space-y-1">
                           <p className="font-medium">Started working as a Barista</p>
                           <p className="text-sm text-muted-foreground">
-                            In September 2024 I finally made the leap and started as a Barista at Café Kitsuné, which is where I still work today
+                            In September 2024 I finally made the leap and started as a Barista at Café Kitsuné, which is
+                            where I still work today
                           </p>
                         </div>
                       </li>

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Coffee, Leaf, Droplet, Milk, ArrowRight } from "lucide-react"
+import { Coffee, Leaf, Droplet, Milk, ArrowRight, ArrowLeft } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
@@ -218,6 +218,15 @@ export default function InformationZonePage() {
                   </CardFooter>
                 </Card>
               ))}
+            </div>
+
+            <div className="mt-12 flex justify-center">
+              <Button asChild variant="outline" className="gap-2">
+                <Link href="/">
+                  <ArrowLeft className="h-4 w-4" />
+                  Back to Home
+                </Link>
+              </Button>
             </div>
           </div>
         </section>
