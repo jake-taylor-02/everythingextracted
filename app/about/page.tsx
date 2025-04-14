@@ -128,8 +128,7 @@ export default function AboutPage() {
                         <div className="space-y-1">
                           <p className="font-medium">Started working as a Barista</p>
                           <p className="text-sm text-muted-foreground">
-                            After a rather stressful trial, I was fortunate enough to be taken on as a Junior Barista by
-                            Café Kitsuné, which is where I still work today
+                            In September 2024 I finally made the leap and started as a Barista at Café Kitsuné, which is where I still work today
                           </p>
                         </div>
                       </li>
