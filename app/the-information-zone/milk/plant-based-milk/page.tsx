@@ -2,7 +2,7 @@ import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function PlantBasedMilkPage() {
   return (
@@ -26,10 +26,29 @@ export default function PlantBasedMilkPage() {
               About
             </Link>
           </nav>
+          <Button variant="ghost" size="icon" className="md:hidden">
+            <span className="sr-only">Toggle menu</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="h-6 w-6"
+            >
+              <line x1="4" x2="20" y1="12" y2="12" />
+              <line x1="4" x2="20" y1="6" y2="6" />
+              <line x1="4" x2="20" y1="18" y2="18" />
+            </svg>
+          </Button>
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-16 bg-white">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
               <div className="space-y-2">
@@ -40,77 +59,153 @@ export default function PlantBasedMilkPage() {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
               <Card className="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md hover:-translate-y-1 duration-300 flex flex-col">
                 <CardHeader className="p-6 pb-0">
                   <CardTitle>Oat Milk</CardTitle>
-                  <CardDescription>Creamy and sustainable</CardDescription>
                 </CardHeader>
-                <CardContent className="p-6 pt-4 flex flex-col flex-1">
-                  <p className="text-sm text-muted-foreground">
-                    Oat milk has gained popularity for its creamy texture and environmental benefits. Made from
-                    steel-cut oats or whole groats, it's a great option for coffee and tea.
+                <CardContent className="p-6 pt-4 flex-grow">
+                  <p className="min-h-[96px]">
+                    Explore the creamy texture and mild flavor of oat milk, why it's become a favorite among baristas,
+                    and how it performs in various coffee preparations.
                   </p>
-                  <div className="mt-auto pt-4">
-                    <Button asChild variant="outline" size="sm" className="w-full h-10">
-                      <Link href="/the-information-zone/milk/plant-based-milk/oat-milk">Learn More</Link>
-                    </Button>
-                  </div>
                 </CardContent>
+                <CardFooter className="p-6 pt-0">
+                  <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">
+                    <Link
+                      href="/the-information-zone/milk/plant-based-milk/oat-milk"
+                      className="flex items-center justify-center"
+                    >
+                      Read More
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="ml-2 h-4 w-4"
+                      >
+                        <path d="M5 12h14" />
+                        <path d="m12 5 7 7-7 7" />
+                      </svg>
+                    </Link>
+                  </Button>
+                </CardFooter>
               </Card>
 
               <Card className="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md hover:-translate-y-1 duration-300 flex flex-col">
                 <CardHeader className="p-6 pb-0">
                   <CardTitle>Almond Milk</CardTitle>
-                  <CardDescription>Light and nutty</CardDescription>
                 </CardHeader>
-                <CardContent className="p-6 pt-4 flex flex-col flex-1">
-                  <p className="text-sm text-muted-foreground">
-                    Almond milk offers a light, slightly sweet flavor with a hint of nuttiness. It's low in calories and
-                    works well in coffee, though it doesn't foam as well as some alternatives.
+                <CardContent className="p-6 pt-4 flex-grow">
+                  <p className="min-h-[96px]">
+                    Discover the subtle nutty flavor of almond milk, its nutritional profile, and how it can complement
+                    certain coffee and tea varieties with its distinctive taste.
                   </p>
-                  <div className="mt-auto pt-4">
-                    <Button asChild variant="outline" size="sm" className="w-full h-10">
-                      <Link href="/the-information-zone/milk/plant-based-milk/almond-milk">Learn More</Link>
-                    </Button>
-                  </div>
                 </CardContent>
+                <CardFooter className="p-6 pt-0">
+                  <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">
+                    <Link
+                      href="/the-information-zone/milk/plant-based-milk/almond-milk"
+                      className="flex items-center justify-center"
+                    >
+                      Read More
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="ml-2 h-4 w-4"
+                      >
+                        <path d="M5 12h14" />
+                        <path d="m12 5 7 7-7 7" />
+                      </svg>
+                    </Link>
+                  </Button>
+                </CardFooter>
               </Card>
 
               <Card className="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md hover:-translate-y-1 duration-300 flex flex-col">
                 <CardHeader className="p-6 pb-0">
                   <CardTitle>Coconut Milk</CardTitle>
-                  <CardDescription>Rich and tropical</CardDescription>
                 </CardHeader>
-                <CardContent className="p-6 pt-4 flex flex-col flex-1">
-                  <p className="text-sm text-muted-foreground">
-                    Coconut milk brings a rich, tropical flavor to beverages. Its natural sweetness and creamy texture
-                    make it excellent for certain coffee drinks and specialty teas.
+                <CardContent className="p-6 pt-4 flex-grow">
+                  <p className="min-h-[96px]">
+                    Learn about the rich, tropical flavor of coconut milk, its unique fat composition, and how it can
+                    add a distinctive character to specialty coffee and tea drinks.
                   </p>
-                  <div className="mt-auto pt-4">
-                    <Button asChild variant="outline" size="sm" className="w-full h-10">
-                      <Link href="/the-information-zone/milk/plant-based-milk/coconut-milk">Learn More</Link>
-                    </Button>
-                  </div>
                 </CardContent>
+                <CardFooter className="p-6 pt-0">
+                  <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">
+                    <Link
+                      href="/the-information-zone/milk/plant-based-milk/coconut-milk"
+                      className="flex items-center justify-center"
+                    >
+                      Read More
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="ml-2 h-4 w-4"
+                      >
+                        <path d="M5 12h14" />
+                        <path d="m12 5 7 7-7 7" />
+                      </svg>
+                    </Link>
+                  </Button>
+                </CardFooter>
               </Card>
 
               <Card className="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md hover:-translate-y-1 duration-300 flex flex-col">
                 <CardHeader className="p-6 pb-0">
                   <CardTitle>Soya Milk</CardTitle>
-                  <CardDescription>Protein-rich classic</CardDescription>
                 </CardHeader>
-                <CardContent className="p-6 pt-4 flex flex-col flex-1">
-                  <p className="text-sm text-muted-foreground">
-                    Soya milk is one of the original plant-based alternatives, offering a good protein content and
-                    neutral flavor that works well in coffee and tea. It also foams relatively well.
+                <CardContent className="p-6 pt-4 flex-grow">
+                  <p className="min-h-[96px]">
+                    Discover the versatility of soya milk, its protein content, and how its neutral flavor profile makes
+                    it a popular choice for coffee and tea beverages around the world.
                   </p>
-                  <div className="mt-auto pt-4">
-                    <Button asChild variant="outline" size="sm" className="w-full h-10">
-                      <Link href="/the-information-zone/milk/plant-based-milk/soya-milk">Learn More</Link>
-                    </Button>
-                  </div>
                 </CardContent>
+                <CardFooter className="p-6 pt-0">
+                  <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">
+                    <Link
+                      href="/the-information-zone/milk/plant-based-milk/soya-milk"
+                      className="flex items-center justify-center"
+                    >
+                      Read More
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="ml-2 h-4 w-4"
+                      >
+                        <path d="M5 12h14" />
+                        <path d="m12 5 7 7-7 7" />
+                      </svg>
+                    </Link>
+                  </Button>
+                </CardFooter>
               </Card>
             </div>
 
@@ -131,6 +226,7 @@ export default function PlantBasedMilkPage() {
             <Link href="/" className="text-lg font-semibold">
               everythingextracted.com
             </Link>
+            <p className="text-xs text-muted-foreground">Comprehensive brewing knowledge, from bean to cup.</p>
           </div>
           <nav className="flex gap-4 text-sm">
             <Link href="/resources" className="text-muted-foreground hover:text-foreground">
