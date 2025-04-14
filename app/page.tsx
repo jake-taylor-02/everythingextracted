@@ -102,35 +102,15 @@ export default function Home() {
                   </div>
                 </CardHeader>
                 <CardContent className="p-4 flex-grow">
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-start gap-2">
-                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#EB5353" }} />
-                      <Link href="/blog/journey-to-perfect-brew" className="hover:underline">
-                        Journey to Perfect Brew
-                      </Link>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#F9D923" }} />
-                      <Link href="/blog/tea-ceremonies-around-world" className="hover:underline">
-                        Tea Ceremonies Around the World
-                      </Link>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#36AE7C" }} />
-                      <Link href="/blog/sample-post" className="hover:underline">
-                        Sample Post
-                      </Link>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#187498" }} />
-                      <span>More Coming Soon...</span>
-                    </li>
-                  </ul>
+                  <p className="text-sm">
+                    I'm currently working on some exciting blog posts. Check back soon for articles about coffee, tea,
+                    and more!
+                  </p>
                 </CardContent>
                 <CardFooter className="p-4 bg-gray-50">
                   <Button asChild variant="ghost" className="w-full justify-between hover:bg-white">
                     <Link href="/blog">
-                      Nothing interesting here
+                      Coming Soon
                       <ArrowRight className="h-4 w-4 ml-2" />
                     </Link>
                   </Button>

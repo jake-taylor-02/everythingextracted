@@ -1,8 +1,7 @@
 import Link from "next/link"
-import { ArrowLeft, Calendar, Clock } from "lucide-react"
+import { ArrowLeft } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function BlogPage() {
   return (
@@ -42,50 +41,14 @@ export default function BlogPage() {
               </div>
             </div>
 
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {blogPosts.map((post, index) => (
-                <Link key={index} href={`/blog/${post.slug}`} className="group">
-                  <Card className="overflow-hidden h-[360px] flex flex-col transition-all hover:shadow-md hover:-translate-y-1 duration-200">
-                    <CardHeader className="pb-2">
-                      <div className="flex items-center justify-between">
-                        <CardTitle>{post.title}</CardTitle>
-                      </div>
-                      <div className="flex items-center gap-2 text-xs text-muted-foreground mt-1">
-                        <Calendar className="h-3 w-3" />
-                        <span>{post.date}</span>
-                      </div>
-                      <div className="h-0.5 w-12 bg-blue-500 mt-2"></div>
-                    </CardHeader>
-                    <CardContent className="p-4 flex-grow">
-                      <p className="text-sm text-muted-foreground line-clamp-4">{post.excerpt}</p>
-                    </CardContent>
-                    <CardFooter className="p-4 mt-auto">
-                      <Button variant="ghost" className="w-full justify-between group-hover:bg-muted/50">
-                        <div className="flex items-center">
-                          <Clock className="h-3 w-3 mr-1" />
-                          <span className="text-xs">{post.readTime} min read</span>
-                        </div>
-                        <span>Read More</span>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          className="ml-2 h-4 w-4"
-                        >
-                          <path d="M5 12h14" />
-                          <path d="m12 5 7 7-7 7" />
-                        </svg>
-                      </Button>
-                    </CardFooter>
-                  </Card>
-                </Link>
-              ))}
+            <div className="flex flex-col items-center justify-center py-12 text-center">
+              <div className="space-y-4">
+                <h2 className="text-2xl font-bold">Coming Soon</h2>
+                <p className="text-muted-foreground max-w-[600px]">
+                  I'm currently working on some exciting blog posts. Check back soon for articles about coffee, tea, and
+                  more!
+                </p>
+              </div>
             </div>
 
             <div className="mt-12 flex justify-center">
@@ -126,6 +89,7 @@ export default function BlogPage() {
   )
 }
 
+// Keep the blogPosts array for future use
 const blogPosts = [
   {
     title: "My Journey to Finding the Perfect Brew",
