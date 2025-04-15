@@ -33,7 +33,7 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-2 text-center mb-8">
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Welcome!</h1>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Welcome all</h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                   This is my most ambitious project to date.
                 </p>
@@ -105,24 +105,12 @@ export default function Home() {
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
                       <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#EB5353" }} />
-                      <Link href="/blog/journey-to-perfect-brew" className="hover:underline">
-                        Journey to Perfect Brew
+                      <Link href="/blog/the-why-behind-the-site" className="hover:underline">
+                        The why behind the site
                       </Link>
                     </li>
                     <li className="flex items-start gap-2">
                       <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#F9D923" }} />
-                      <Link href="/blog/tea-ceremonies-around-world" className="hover:underline">
-                        Tea Ceremonies Around the World
-                      </Link>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#36AE7C" }} />
-                      <Link href="/blog/sample-post" className="hover:underline">
-                        Sample Post
-                      </Link>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#187498" }} />
                       <span>More Coming Soon...</span>
                     </li>
                   </ul>

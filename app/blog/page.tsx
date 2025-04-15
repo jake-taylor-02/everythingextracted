@@ -104,46 +104,12 @@ export default function BlogPage() {
 }
 
 const blogPosts = [
-  {
-    title: "My Journey to Finding the Perfect Brew",
-    slug: "journey-to-perfect-brew",
-    subtitle: "A personal exploration through coffee varieties",
-    date: "March 20, 2023",
-    author: "Alex Johnson",
-    authorImage: "/placeholder.svg?height=40&width=40",
-    category: "Coffee",
-    gradientFrom: "#d4a373",
-    gradientTo: "#faedcd",
-    excerpt:
-      "After years of mediocre coffee, I embarked on a journey to discover what makes the perfect cup. This is what I learned along the way.",
-    readTime: 8,
-  },
-  {
-    title: "Tea Ceremonies Around the World",
-    slug: "tea-ceremonies-around-world",
-    subtitle: "Cultural traditions and their meanings",
-    date: "March 5, 2023",
-    author: "Mei Lin",
-    authorImage: "/placeholder.svg?height=40&width=40",
-    category: "Tea",
-    gradientFrom: "#4c956c",
-    gradientTo: "#d8f3dc",
-    excerpt:
-      "From Japan's meticulous matcha preparation to Morocco's theatrical mint tea pouring, I explore how tea ceremonies reflect cultural values and bring people together.",
-    readTime: 6,
-  },
-  {
-    title: "Sample Post",
-    slug: "sample-post",
+  /*{
+    title: "The why behind the site",
+    slug: "the-why-behind-the-site",
     subtitle: "A template for creating new blog posts",
-    date: "March 15, 2023",
-    author: "Alex Johnson",
-    authorImage: "/placeholder.svg?height=40&width=40",
-    category: "Coffee",
-    gradientFrom: "#f59e0b",
-    gradientTo: "#fef3c7",
-    excerpt:
-      "This is a sample blog post that demonstrates various elements like paragraphs, images, tables, and information boxes that you can use as a template for future posts.",
+    date: "April 15, 2025",
+    excerpt: "Why I started everythingextracted.com, and what I hope to achieve",
     readTime: 6,
-  },
+  },*/
 ]

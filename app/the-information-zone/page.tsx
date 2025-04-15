@@ -12,8 +12,6 @@ export default function InformationZonePage() {
   const informationCategories = [
     {
       title: "Coffee",
-      description: "Explore different origins, varieties, processing methods, roast levels, freshness and much more",
-      content: "Discover the science behind coffee beans, from cultivation to roasting and everything in between.",
       icon: Coffee,
       href: "/the-information-zone/coffee",
       accentColor: "#EB5353", // Red
@@ -23,27 +21,10 @@ export default function InformationZonePage() {
           href: "/the-information-zone/coffee",
           color: "#EB5353", // Red (1st)
         },
-        {
-          title: "Coming soon",
-          href: "/the-information-zone/coffee",
-          color: "#F9D923", // Yellow (2nd)
-        },
-        {
-          title: "Coming soon",
-          href: "/the-information-zone/coffee",
-          color: "#36AE7C", // Green (3rd)
-        },
-        {
-          title: "Coming soon",
-          href: "/the-information-zone/coffee",
-          color: "#187498", // Blue (4th)
-        },
       ],
     },
     {
       title: "Tea",
-      description: "Discover the wonders of Camellia sinensis ",
-      content: "Learn about the chemistry of tea processing, from oxidation to fermentation and the resulting flavors.",
       icon: Leaf,
       href: "/the-information-zone/tea",
       accentColor: "#F9D923", // Yellow
@@ -51,29 +32,12 @@ export default function InformationZonePage() {
         {
           title: "Coming soon",
           href: "/the-information-zone/tea",
-          color: "#EB5353", // Red (1st)
-        },
-        {
-          title: "Coming soon",
-          href: "/the-information-zone/tea",
           color: "#F9D923", // Yellow (2nd)
-        },
-        {
-          title: "Coming soon",
-          href: "/the-information-zone/tea",
-          color: "#36AE7C", // Green (3rd)
-        },
-        {
-          title: "Coming soon",
-          href: "/the-information-zone/tea",
-          color: "#187498", // Blue (4th)
         },
       ],
     },
     {
       title: "Water",
-      description: "The often overlooked ingredient that makes up 98% of your cup",
-      content: "Understand how water quality, mineral content, and temperature affect extraction and flavor.",
       icon: Droplet,
       href: "/the-information-zone/water",
       accentColor: "#36AE7C", // Green
@@ -81,29 +45,12 @@ export default function InformationZonePage() {
         {
           title: "Coming soon",
           href: "/the-information-zone/water",
-          color: "#EB5353", // Red (1st)
-        },
-        {
-          title: "Coming soon",
-          href: "/the-information-zone/water",
-          color: "#F9D923", // Yellow (2nd)
-        },
-        {
-          title: "Coming soon",
-          href: "/the-information-zone/water",
           color: "#36AE7C", // Green (3rd)
-        },
-        {
-          title: "Coming soon",
-          href: "/the-information-zone/water",
-          color: "#187498", // Blue (4th)
         },
       ],
     },
     {
       title: "Milk",
-      description: "Dairy and plant-based options for your beverages",
-      content: "Explore the science of milk proteins, fats, and how they interact with coffee and tea.",
       icon: Milk,
       href: "/the-information-zone/milk",
       accentColor: "#187498", // Blue
@@ -111,14 +58,14 @@ export default function InformationZonePage() {
         {
           title: "Dairy Milk",
           href: "/the-information-zone/milk/dairy-milk",
-          color: "#EB5353", // Red (1st)
+          color: "#187498", // Blue
         },
         {
           title: "Plant-based Milk",
           href: "/the-information-zone/milk/plant-based-milk",
-          color: "#F9D923", // Yellow (2nd)
+          color: "#187498", // Blue
         },
-        {
+       /* {
           title: "Coming soon",
           href: "/the-information-zone/milk",
           color: "#36AE7C", // Green (3rd)
@@ -127,7 +74,7 @@ export default function InformationZonePage() {
           title: "Coming soon",
           href: "/the-information-zone/milk",
           color: "#187498", // Blue (4th)
-        },
+        }, */
       ],
     },
   ]
@@ -162,7 +109,7 @@ export default function InformationZonePage() {
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">The Information Zone</h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  Explore the history and science behind these fundamental components that make up our beverages
+                  Explore the history and science behind the things that make up our beverages
                 </p>
               </div>
             </div>

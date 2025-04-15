@@ -26,25 +26,6 @@ export default function PlantBasedMilkPage() {
               About
             </Link>
           </nav>
-          <Button variant="ghost" size="icon" className="md:hidden">
-            <span className="sr-only">Toggle menu</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="h-6 w-6"
-            >
-              <line x1="4" x2="20" y1="12" y2="12" />
-              <line x1="4" x2="20" y1="6" y2="6" />
-              <line x1="4" x2="20" y1="18" y2="18" />
-            </svg>
-          </Button>
         </div>
       </header>
       <main className="flex-1">
@@ -53,9 +34,7 @@ export default function PlantBasedMilkPage() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Plant-Based Milk</h1>
-                <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  Non-dairy alternatives for your beverages
-                </p>
+                <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">Is it even... well... milk!</p>
               </div>
             </div>
 
@@ -65,10 +44,7 @@ export default function PlantBasedMilkPage() {
                   <CardTitle>Oat Milk</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 pt-4 flex-grow">
-                  <p className="min-h-[96px]">
-                    Explore the creamy texture and mild flavor of oat milk, why it's become a favorite among baristas,
-                    and how it performs in various coffee preparations.
-                  </p>
+                  <p className="min-h-[96px]">This article is coming soon.</p>
                 </CardContent>
                 <CardFooter className="p-6 pt-0">
                   <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">
@@ -102,10 +78,7 @@ export default function PlantBasedMilkPage() {
                   <CardTitle>Almond Milk</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 pt-4 flex-grow">
-                  <p className="min-h-[96px]">
-                    Discover the subtle nutty flavor of almond milk, its nutritional profile, and how it can complement
-                    certain coffee and tea varieties with its distinctive taste.
-                  </p>
+                  <p className="min-h-[96px]">This article is coming soon.</p>
                 </CardContent>
                 <CardFooter className="p-6 pt-0">
                   <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">
@@ -139,10 +112,7 @@ export default function PlantBasedMilkPage() {
                   <CardTitle>Coconut Milk</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 pt-4 flex-grow">
-                  <p className="min-h-[96px]">
-                    Learn about the rich, tropical flavor of coconut milk, its unique fat composition, and how it can
-                    add a distinctive character to specialty coffee and tea drinks.
-                  </p>
+                  <p className="min-h-[96px]">This article is coming soon.</p>
                 </CardContent>
                 <CardFooter className="p-6 pt-0">
                   <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">
@@ -176,10 +146,7 @@ export default function PlantBasedMilkPage() {
                   <CardTitle>Soya Milk</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 pt-4 flex-grow">
-                  <p className="min-h-[96px]">
-                    Discover the versatility of soya milk, its protein content, and how its neutral flavor profile makes
-                    it a popular choice for coffee and tea beverages around the world.
-                  </p>
+                  <p className="min-h-[96px]">This article is coming soon.</p>
                 </CardContent>
                 <CardFooter className="p-6 pt-0">
                   <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">

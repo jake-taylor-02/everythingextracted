@@ -34,16 +34,14 @@ export default function WaterPage() {
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Water</h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  The often overlooked ingredient that makes up 98% of your cup
+                  Is water really worth a series of articles? I certainly think so
                 </p>
               </div>
             </div>
 
             <div className="prose prose-gray max-w-3xl mx-auto">
               <p className="text-center text-muted-foreground italic">
-                This section is coming soon. We're currently working on comprehensive content about water quality,
-                mineral content, and how different water properties affect the taste of coffee and tea.
-              </p>
+                This section is coming soon.
             </div>
 
             <div className="mt-12 flex justify-center">
@@ -58,5 +56,5 @@ export default function WaterPage() {
         </section>
       </main>
     </div>
-  )
+  );
 }

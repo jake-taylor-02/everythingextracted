@@ -33,7 +33,7 @@ export default function OatMilkPage() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  Oat Milk - The Barista's Favorite
+                  Oat Milk
                 </h1>
               </div>
             </div>
