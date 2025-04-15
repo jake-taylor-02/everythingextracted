@@ -40,8 +40,7 @@ export default function WaterPage() {
             </div>
 
             <div className="prose prose-gray max-w-3xl mx-auto">
-              <p className="text-center text-muted-foreground italic">
-                This section is coming soon.
+              <p className="text-center text-muted-foreground italic">This section is coming soon.</p>
             </div>
 
             <div className="mt-12 flex justify-center">
@@ -56,5 +55,5 @@ export default function WaterPage() {
         </section>
       </main>
     </div>
-  );
+  )
 }
