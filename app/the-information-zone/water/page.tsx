@@ -40,7 +40,10 @@ export default function WaterPage() {
             </div>
 
             <div className="prose prose-gray max-w-3xl mx-auto">
-              <p className="text-center text-muted-foreground italic">This section is coming soon.</p>
+              <p className="text-center text-muted-foreground italic">
+                This section is coming soon. We&apos;re currently working on comprehensive content about water quality,
+                mineral content, and how different water properties affect the taste of coffee and tea.
+              </p>
             </div>
 
             <div className="mt-12 flex justify-center">
