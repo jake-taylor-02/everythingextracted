@@ -93,7 +93,7 @@ export default function SamplePostPage() {
 
 
 
-
+          </div>
 
           {/* Back to Blog Button */}
           <div className="mt-10 flex justify-center">
