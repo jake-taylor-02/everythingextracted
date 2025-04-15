@@ -104,12 +104,12 @@ export default function BlogPage() {
 }
 
 const blogPosts = [
-  /*{
-    title: "The why behind the site",
-    slug: "the-why-behind-the-site",
+  {
+    title: "The why behind everythingextracted.com",
+    slug: "the-why-behind-everythingextracted",
     subtitle: "A template for creating new blog posts",
     date: "April 15, 2025",
     excerpt: "Why I started everythingextracted.com, and what I hope to achieve",
     readTime: 6,
-  },*/
+  },
 ]
