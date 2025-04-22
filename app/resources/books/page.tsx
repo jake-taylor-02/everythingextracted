@@ -123,6 +123,8 @@ export default function BooksPage() {
               </div>
             </div>
 
+            {/*
+
             <div className="grid gap-8 md:grid-cols-2">
               {books.map((book, index) => (
                 <Card
@@ -155,6 +157,13 @@ export default function BooksPage() {
                 </Card>
               ))}
             </div>
+
+            */}
+            
+            <div className="prose prose-gray max-w-3xl mx-auto">
+              <p className="text-center text-muted-foreground italic">This page is coming soon.</p>
+            </div>
+            
 
             <div className="mt-12 flex justify-center">
               <Button asChild variant="outline" className="gap-2">

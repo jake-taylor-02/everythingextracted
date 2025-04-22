@@ -214,7 +214,7 @@ export default function MilkHistoryPage() {
                       combination of genes that a particular living thing carries. Humans have around 40,000 different
                       genes <Cite id="salzberg2018" referenceNumbers={pageReferenceNumbers} /> and genes are the basic
                       units of heredity, each one controlling a particular quality in living things. The lactase
-                      persistence phenotye is simply the observed continued production of lactase enzyme into adulthood.
+                      persistence phenotye is simply the observed continued production of the lactase enzyme into adulthood.
                     </div>
                     <div>
                       Genes are stored on chromosomes, with most humans having 23 pairs, one from each parent, found in

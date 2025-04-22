@@ -54,12 +54,10 @@ export default function AboutPage() {
                   <div className="space-y-3">
                     <p>
                       Despite the fact that I spent all my childhood and most of my teenage years drinking nothing other
-                      than water, things changed and I'm very enthusiastic about all things coffee, tea, cafe cultulture
-                      and more.
+                      than water, things changed and I'm very enthusiastic about all things coffee, tea, cafe culture and more.
                     </p>
                     <p>
-                      I started working as a Barista in September 2024, and built this website to organise all of the
-                      resources and information I have gathered along the way. I've also invested in some equipment that
+                      I started working as a Barista in September 2024, and built this website to create a platform for others to read about the history, science and culture around the beverages that we consume. I've also invested in some equipment that
                       should allow me to work on and publish some fun projects over the next few months.
                     </p>
                   </div>

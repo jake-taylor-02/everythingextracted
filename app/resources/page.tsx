@@ -9,9 +9,8 @@ export default function ResourcesPage() {
     {
       name: "Websites",
       slug: "websites",
-      description: "Online resources for coffee and tea enthusiasts",
-      content:
-        "Discover the best websites, blogs, and online communities dedicated to brewing, tasting, and learning about coffee and tea.",
+      description: "An assortment of interesting websites that I have discovered",
+      content: "Discover the best websites, blogs, and more dedicated all",
       icon: <Globe className="h-5 w-5" style={{ color: "#EB5353" }} />,
       action: "Browse Websites",
       accentColor: "#EB5353",
@@ -19,9 +18,8 @@ export default function ResourcesPage() {
     {
       name: "Podcasts",
       slug: "podcasts",
-      description: "Audio content for your brewing journey",
-      content:
-        "Listen to experts discuss brewing techniques, interview industry professionals, and share insights about coffee and tea culture.",
+      description: "A few of the many beverage focused podcasts out there",
+      content: "These are mostly coffee focused, but I'm always finding and adding more",
       icon: <Headphones className="h-5 w-5" style={{ color: "#F9D923" }} />,
       action: "Discover Podcasts",
       accentColor: "#F9D923",
@@ -30,8 +28,7 @@ export default function ResourcesPage() {
       name: "Books",
       slug: "books",
       description: "Essential reading for coffee and tea lovers",
-      content:
-        "Explore recommended books covering everything from brewing fundamentals to deep dives into the history, science, and culture of coffee and tea.",
+      content: "This page is coming soon",
       icon: <BookOpen className="h-5 w-5" style={{ color: "#36AE7C" }} />,
       action: "View Book List",
       accentColor: "#36AE7C",
@@ -40,8 +37,7 @@ export default function ResourcesPage() {
       name: "Academic Articles",
       slug: "academic-articles",
       description: "Research and scientific studies",
-      content:
-        "Access peer-reviewed research papers and academic studies on the chemistry, health effects, and agricultural aspects of coffee and tea.",
+      content: "This page.",
       icon: <FileText className="h-5 w-5" style={{ color: "#187498" }} />,
       action: "Browse Research",
       accentColor: "#187498",
@@ -78,7 +74,7 @@ export default function ResourcesPage() {
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Useful Resources</h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  A curated collection of the best coffee and tea resources.
+                  A small collection of the best resources I've found so far
                 </p>
               </div>
             </div>
@@ -86,7 +82,7 @@ export default function ResourcesPage() {
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {resources.map((resource) => (
                 <Link key={resource.name} href={`/resources/${resource.slug}`} className="group">
-                  <Card className="overflow-hidden h-[360px] flex flex-col transition-all hover:shadow-md hover:-translate-y-1 duration-200">
+                  <Card className="overflow-hidden flex flex-col transition-all hover:shadow-md hover:-translate-y-1 duration-200">
                     <CardHeader className="pb-2">
                       <div className="flex items-center gap-2">
                         {resource.icon}
@@ -95,17 +91,15 @@ export default function ResourcesPage() {
                       <CardDescription>{resource.description}</CardDescription>
                       <div className="h-0.5 w-12 mt-2" style={{ backgroundColor: resource.accentColor }}></div>
                     </CardHeader>
-                    <CardContent className="p-4 flex-grow">
-                      <p className="text-sm text-muted-foreground line-clamp-3">{resource.content}</p>
-                    </CardContent>
+                    <CardContent className="p-4 pb-0 flex-grow"></CardContent>
                     <CardFooter className="p-4 mt-auto">
                       <Button variant="ghost" className="w-full justify-between group-hover:bg-muted/50">
                         {resource.action}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
+                          height="5"
+                          viewBox="0 0 24 5"
                           fill="none"
                           stroke="currentColor"
                           strokeWidth="2"
