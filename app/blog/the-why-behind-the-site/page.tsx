@@ -55,7 +55,7 @@ export default function SamplePostPage() {
               <Calendar className="mr-1 h-4 w-4" />
               April 15, 2024
               <span className="mx-2">•</span>
-              <Clock className="mr-1 h-4 w-4" />6 min read
+              <Clock className="mr-1 h-4 w-4" />2 min read
             </div>
           </div>
 
@@ -85,14 +85,11 @@ export default function SamplePostPage() {
 
             <h2>My vision for everythingextracted.com</h2>
 
-            <p>While my last two websites were good learning experiences, they weren't paticularly useful or interesting to anyone else, and that's where I'll start off with my hopes for the site</p>
+            <p>My hope is that over time, the website will become the place to visit for those who, like me, are pathologically curious about all things tea, coffee, and more. The history, culture, and science surrounding the beverages we drink are vast, complicated, but fascinating, and I hope to create an accessible resource that touches on as much as possible.</p>
 
-            <h3>A place to discover the things you didn't know you didn't know</h3>
+            <h2>Frequency of new articles</h2>
 
-            <p>Where do you start when researching coffee, to take an example?</p>
-
-
-
+            <p>Since more of my time than I’d like to admit is spent making and serving beverages rather than writing about them, I aim to release two new articles a month. While not a large number, my priority is to ensure the articles go as deep as possible, which invariably requires a lot of reading. But let's see! </p>
           </div>
 
           {/* Back to Blog Button */}
