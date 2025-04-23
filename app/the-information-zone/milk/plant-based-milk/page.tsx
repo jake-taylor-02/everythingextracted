@@ -23,7 +23,7 @@ export default function PlantBasedMilkPage() {
               The Information Zone
             </Link>
             <Link href="/about" className="text-sm font-medium hover:text-primary">
-              About
+              About Me
             </Link>
           </nav>
         </div>
@@ -44,7 +44,7 @@ export default function PlantBasedMilkPage() {
                   <CardTitle>Oat Milk</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 pt-4 flex-grow">
-                  <p className="min-h-[96px]">This article is coming soon.</p>
+                  <p className="min-h-[64px]">This article is coming soon.</p>
                 </CardContent>
                 <CardFooter className="p-6 pt-0">
                   <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">
@@ -78,7 +78,7 @@ export default function PlantBasedMilkPage() {
                   <CardTitle>Almond Milk</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 pt-4 flex-grow">
-                  <p className="min-h-[96px]">This article is coming soon.</p>
+                  <p className="min-h-[64px]">This article is coming soon.</p>
                 </CardContent>
                 <CardFooter className="p-6 pt-0">
                   <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">
@@ -112,7 +112,7 @@ export default function PlantBasedMilkPage() {
                   <CardTitle>Coconut Milk</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 pt-4 flex-grow">
-                  <p className="min-h-[96px]">This article is coming soon.</p>
+                  <p className="min-h-[64px]">This article is coming soon.</p>
                 </CardContent>
                 <CardFooter className="p-6 pt-0">
                   <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">
@@ -146,7 +146,7 @@ export default function PlantBasedMilkPage() {
                   <CardTitle>Soya Milk</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 pt-4 flex-grow">
-                  <p className="min-h-[96px]">This article is coming soon.</p>
+                  <p className="min-h-[64px]">This article is coming soon.</p>
                 </CardContent>
                 <CardFooter className="p-6 pt-0">
                   <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">

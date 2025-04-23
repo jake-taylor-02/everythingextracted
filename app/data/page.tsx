@@ -26,10 +26,10 @@ export default function DataPage() {
               Blog
             </Link>
             <Link href="/whats-in-my-cup" className="text-sm font-medium hover:text-primary">
-              What's In My Cup
+              The Information Zone
             </Link>
             <Link href="/about" className="text-sm font-medium hover:text-primary">
-              About
+              About Me
             </Link>
           </nav>
         </div>

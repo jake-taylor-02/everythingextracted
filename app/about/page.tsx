@@ -23,7 +23,7 @@ export default function AboutPage() {
               The Information Zone
             </Link>
             <Link href="/about" className="text-sm font-medium text-primary">
-              About
+              About Me
             </Link>
           </nav>
         </div>

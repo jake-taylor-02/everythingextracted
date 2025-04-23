@@ -97,7 +97,7 @@ export default function InformationZonePage() {
               The Information Zone
             </Link>
             <Link href="/about" className="text-sm font-medium hover:text-primary">
-              About
+              About Me
             </Link>
           </nav>
         </div>
@@ -109,7 +109,7 @@ export default function InformationZonePage() {
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">The Information Zone</h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  Explore the history and science behind the things that make up our beverages
+                  Time to spill the tea... on everything!
                 </p>
               </div>
             </div>

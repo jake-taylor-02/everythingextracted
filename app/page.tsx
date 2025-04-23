@@ -23,7 +23,7 @@ export default function Home() {
               The Information Zone
             </Link>
             <Link href="/about" className="text-sm font-medium hover:text-primary">
-              About
+              About Me
             </Link>
           </nav>
         </div>
@@ -33,9 +33,9 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-2 text-center mb-8">
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Welcome all</h1>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Greetings, visitor </h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  This is my most ambitious project to date.
+                  Dive into the fruits of my pathological curiosity - one sip at a time
                 </p>
               </div>
             </div>

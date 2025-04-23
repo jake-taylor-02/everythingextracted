@@ -22,7 +22,7 @@ export default function WaterPage() {
               The Information Zone
             </Link>
             <Link href="/about" className="text-sm font-medium hover:text-primary">
-              About
+              About Me
             </Link>
           </nav>
         </div>
@@ -41,8 +41,7 @@ export default function WaterPage() {
 
             <div className="prose prose-gray max-w-3xl mx-auto">
               <p className="text-center text-muted-foreground italic">
-                This section is coming soon. We&apos;re currently working on comprehensive content about water quality,
-                mineral content, and how different water properties affect the taste of coffee and tea.
+                This section is coming soon.
               </p>
             </div>
 
