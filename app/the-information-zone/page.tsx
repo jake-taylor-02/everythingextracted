@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Coffee, Leaf, Droplet, Milk, ArrowRight, ArrowLeft } from "lucide-react"
+import { Coffee, Leaf, Droplet, Milk, ArrowRight, ArrowLeft, FlaskConical } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
@@ -75,6 +75,19 @@ export default function InformationZonePage() {
           href: "/the-information-zone/milk",
           color: "#187498", // Blue (4th)
         }, */
+      ],
+    },
+    {
+      title: "Chemistry 101",
+      icon: FlaskConical,
+      href: "/the-information-zone/chemistry-101",
+      accentColor: "#9C27B0", // Purple
+      subpages: [
+        {
+          title: "Coming soon",
+          href: "/the-information-zone/chemistry-101",
+          color: "#9C27B0", // Purple
+        },
       ],
     },
   ]

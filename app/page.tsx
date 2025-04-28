@@ -162,6 +162,12 @@ export default function Home() {
                         Milk
                       </Link>
                     </li>
+                    <li className="flex items-start gap-2">
+                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#9C27B0" }} />
+                      <Link href="/the-information-zone/chemistry-101" className="hover:underline">
+                        Chemistry 101
+                      </Link>
+                    </li>
                   </ul>
                 </CardContent>
                 <CardFooter className="p-4 bg-gray-50">
