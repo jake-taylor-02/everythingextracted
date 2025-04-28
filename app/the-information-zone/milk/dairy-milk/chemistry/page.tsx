@@ -1,7 +1,13 @@
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowLeft } from "lucide-react"
-
 import { Button } from "@/components/ui/button"
+import { Card, CardContent } from "@/components/ui/card"
+import { Cite, References, type ReferenceNumbersMap } from "@/components/simple-reference"
+
+// Define reference numbers for this page
+const pageReferenceNumbers: ReferenceNumbersMap = {
+}
 
 export default function MilkCompositionPage() {
   return (
@@ -38,9 +44,9 @@ export default function MilkCompositionPage() {
               </div>
             </div>
 
-            <div className="prose prose-gray max-w-3xl mx-auto">
-              <p className="text-center text-muted-foreground italic">This article is coming soon.</p>
-            </div>
+            <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+                  Let's exlore the processiing methods, properties, and contents of dairy milk, and how these affect texture, taste, and shelf life
+                </p>
 
             <div className="mt-12 flex justify-center">
               <Button asChild variant="outline" className="gap-2 mr-4">
