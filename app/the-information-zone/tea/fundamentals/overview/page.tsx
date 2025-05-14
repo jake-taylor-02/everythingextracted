@@ -170,7 +170,8 @@ export default function TeaOverviewPage() {
                   <h2 className="text-2xl font-bold tracking-tight">Herbal Teas / Tisanes</h2>
                   <div className="space-y-4">
                     <div>
-                      It's important to note that not all beverages called "tea" are made from the camellia sinensis plant. Herbal teas, or tisanes, are made from herbs, fruits, flowers, and other plant materials.
+                      It's important to note that not all beverages called "tea" are made from the camellia sinensis
+                      plant. Herbal teas, or tisanes, are made from herbs, fruits, flowers, and other plant materials.
                       Here are a few examples:
                     </div>
 
@@ -186,8 +187,8 @@ export default function TeaOverviewPage() {
                           its name from the red appearance of the leaves after they have undergone oxidation{" "}
                           <Cite id="klipopmekaar2023" referenceNumbers={pageReferenceNumbers} />. It can be enjoyed in
                           many ways, uniquely as a 'red cappuccino', where ground coffee is substituted for finely
-                          ground rooibos leaves, which are extracted in a similar way in an espresso machine before the addition of foamed milk{" "}
-                          <Cite id="redespresso2023" referenceNumbers={pageReferenceNumbers} />
+                          ground rooibos leaves, which are extracted in a similar way in an espresso machine before the
+                          addition of foamed milk <Cite id="redespresso2023" referenceNumbers={pageReferenceNumbers} />
                         </li>
                         <li>
                           <strong>Ginger:</strong> Prepared from the rhiozme (underground stem) of the ginger plant,
@@ -274,8 +275,8 @@ export default function TeaOverviewPage() {
                         </li>
                         <li>
                           There are many research stations around the world performing this sort of work, such as the
-                          Tea and Beverage Research Station in Taiwan, which has produced over 20 cultivars, including the
-                          well-known Jin Xuan variety <Cite id="tbrs2023" referenceNumbers={pageReferenceNumbers} />
+                          Tea and Beverage Research Station in Taiwan, which has produced over 20 cultivars, including
+                          the well-known Jin Xuan variety <Cite id="tbrs2023" referenceNumbers={pageReferenceNumbers} />
                         </li>
                       </ul>
                     </div>
@@ -456,7 +457,8 @@ export default function TeaOverviewPage() {
                       </div>
                     </div>
                     <div>
-                      Though this data is incomplete due to the complexities of gathering it, there are a few countries that stand out when it comes to their tea consumption habits:
+                      Though this data is incomplete due to the complexities of gathering it, there are a few countries
+                      that stand out when it comes to their tea consumption habits:
                     </div>
                     <div>
                       <ul className="list-disc pl-6 mt-2 space-y-2">
@@ -471,10 +473,12 @@ export default function TeaOverviewPage() {
                           <Cite id="uk_turkey_fta" referenceNumbers={pageReferenceNumbers} />
                         </li>
                         <li>
-                          <strong>Ireland:</strong> Tea was introduced to Ireland less than 300 years ago, and it is the hot beverage of choice. Barry's and Lyons, both originating
-                          at the beginning of the 20th century in Ireland, are two favourites. Barry's is still family owned, and makes up nearly 40% of tea sales in Ireland{" "}
-                          <Cite id="barrys_tea" referenceNumbers={pageReferenceNumbers} />. Irish Breakfast Tea is a
-                          a blend of black teas known for its high Assam content — a tea from the Assam region in northeastern India — characterised by a strong, malty, and robust flavor
+                          <strong>Ireland:</strong> Tea was introduced to Ireland less than 300 years ago, and it is the
+                          hot beverage of choice. Barry's and Lyons, both originating at the beginning of the 20th
+                          century in Ireland, are two favourites. Barry's is still family owned, and makes up nearly 40%
+                          of tea sales in Ireland <Cite id="barrys_tea" referenceNumbers={pageReferenceNumbers} />.
+                          Irish Breakfast Tea is a a blend of black teas known for its high Assam content — a tea from
+                          the Assam region in northeastern India — characterised by a strong, malty, and robust flavor
                         </li>
                       </ul>
                     </div>
@@ -823,34 +827,64 @@ export default function TeaOverviewPage() {
                 <CardContent className="p-6 space-y-6">
                   <h2 className="text-2xl font-bold tracking-tight mb-1">Decoding the contents of tea</h2>
                   <div className="space-y-4">
-                    <div>Now that we've examined the components of tea in its leaf form and how they're affected by two different processing and brewing methods, let's explore their function and flavor:</div>
+                    <div>
+                      Now that we've examined the components of tea in its leaf form and how they're affected by two
+                      different processing and brewing methods, let's explore their function and flavor:
+                    </div>
                     <div>
                       <ul className="list-disc pl-6 mt-2 space-y-2">
                         <li>
                           <strong>Polyphenols: </strong>
                           Polyphenols are groups of chemical compounds called phenols, and the polyphenolic fraction of
-                          tea represents 30 to 40% of the dry leaf content {" "}<Cite id="harbowy1997" referenceNumbers={pageReferenceNumbers} />.
-                          Most of this can be acccounted for by flavonoids, a large class of naturally occuring compounds in plants. They fall into six groups, of which flavanols and flavonols are the most important in tea. The major flavanols of interest
-                          in tea are EC (epicatechin), ECG (epicatechin gallate), EGC (epigallocatechin) and the most abundant, EGCG (epigallocatechin gallate {" "}<Cite id="amra2006" referenceNumbers={pageReferenceNumbers} />, there are 4 more of less significance. Together, these account for around 25% of the dry leaf content. Flavonols make up a much smaller percentage of the dry leaf content, and include kaempferol, quercitin, and myricitin. Polyphenols are responsible for the bitterness in brewed tea and the astringency, a drying, roughing and puckering sensation in the mouth, similar to what is felt when drinking a dry red wine{" "}<Cite id="gawel2001" referenceNumbers={pageReferenceNumbers} /> 
+                          tea represents 30 to 40% of the dry leaf content{" "}
+                          <Cite id="harbowy1997" referenceNumbers={pageReferenceNumbers} />. Most of this can be
+                          acccounted for by flavonoids, a large class of naturally occuring compounds in plants. They
+                          fall into six groups, of which flavanols and flavonols are the most important in tea. The
+                          major flavanols of interest in tea are EC (epicatechin), ECG (epicatechin gallate), EGC
+                          (epigallocatechin) and the most abundant, EGCG (epigallocatechin gallate{" "}
+                          <Cite id="amra2006" referenceNumbers={pageReferenceNumbers} />, there are 4 more of less
+                          significance. Together, these account for around 25% of the dry leaf content. Flavonols make
+                          up a much smaller percentage of the dry leaf content, and include kaempferol, quercitin, and
+                          myricitin. Polyphenols are responsible for the bitterness in brewed tea and the astringency, a
+                          drying, roughing and puckering sensation in the mouth, similar to what is felt when drinking a
+                          dry red wine <Cite id="gawel2001" referenceNumbers={pageReferenceNumbers} />
                         </li>
 
                         <li>
-                          <strong>Caffeine: </strong> Caffeine is the most widely consumed central-nervous-system stimulant in the world, and accounts for around 1.5-4% of the dry weight of tea leaves {" "}<Cite id="tfouni2018" referenceNumbers={pageReferenceNumbers} />. It is part of the alkaloids, a broad class of naturally occurring organic compounds that contain at least one nitrogen atom. Alkaloids are secondary metabolites that generally mediate ecological interactions, providing a selective advantage to the organism rather than contributing directly to its growth, development, or reproduction. Many alkaloids have a bitter taste {" "}<Cite id="modernalkaloids" referenceNumbers={pageReferenceNumbers} />, and caffeine is no exception, acting as a natural insecticide due to its bitterness.
-                          Theobromine is another alkaloid in tea, but exists in much smaller quantities
+                          <strong>Caffeine: </strong> Caffeine is the most widely consumed central-nervous-system
+                          stimulant in the world, and accounts for around 1.5-4% of the dry weight of tea leaves{" "}
+                          <Cite id="tfouni2018" referenceNumbers={pageReferenceNumbers} />. It is part of the alkaloids,
+                          a broad class of naturally occurring organic compounds that contain at least one nitrogen
+                          atom. Alkaloids are secondary metabolites that generally mediate ecological interactions,
+                          providing a selective advantage to the organism rather than contributing directly to its
+                          growth, development, or reproduction. Many alkaloids have a bitter taste{" "}
+                          <Cite id="modernalkaloids" referenceNumbers={pageReferenceNumbers} />, and caffeine is no
+                          exception, acting as a natural insecticide due to its bitterness. Theobromine is another
+                          alkaloid in tea, but exists in much smaller quantities
                         </li>
 
                         <li>
                           <strong>Amino Acids: </strong>There are around 500 amino acids that exist in nature, and they
                           are essential building blocks that construct protein. While these only make up 4% of the dry
-                          leaf content, they are of significant importance. Making up over 50% of these amino acids is L-theanine{" "}
-                          <Cite id="theanine_content" referenceNumbers={pageReferenceNumbers} />, which is
-                          of interest due to its contribution to the desirable umami qualities of tea{" "}
-                          <Cite id="theanine_umami" referenceNumbers={pageReferenceNumbers} />, and its synergistic effect
-                          with caffeine{" "}<Cite id="theanine_caffeine" referenceNumbers={pageReferenceNumbers} />
+                          leaf content, they are of significant importance. Making up over 50% of these amino acids is
+                          L-theanine <Cite id="theanine_content" referenceNumbers={pageReferenceNumbers} />, which is of
+                          interest due to its contribution to the desirable umami qualities of tea{" "}
+                          <Cite id="theanine_umami" referenceNumbers={pageReferenceNumbers} />, and its synergistic
+                          effect with caffeine <Cite id="theanine_caffeine" referenceNumbers={pageReferenceNumbers} />
                         </li>
 
                         <li>
-                          <strong> Carbohydrates: </stong> Carbohydrates, one of the 3 macronutrient groups, are molecules comprised of carbon, hydrogen and oxygen. Monosaccharides are the simplest form, followed by disaccharides (two monosaccharides joined together), oligosaccharides (generally 3-10 monosaccharides joined together) and finally polysaccharides, which are very long chains of monosaccharides. Cellulose, a polysaccharide and key structural component of plant cell walls, makes up around 7% of the dry leaf weight, however it doesn't make it into the final cup due to its insolubility in water. It is for this reason that it is well-suited for making teabags. Many carbohydrates within the dry leaf do make it into the final cup, such as sucrose, myo-inositol, glucose and fructose {" "}<Cite id="nelum2022" referenceNumbers={pageReferenceNumbers} /> {" "}<Cite id="shevchuk2020" referenceNumbers={pageReferenceNumbers} />
+                          <strong>Carbohydrates: </strong> Carbohydrates, one of the 3 macronutrient groups, are
+                          molecules comprised of carbon, hydrogen and oxygen. Monosaccharides are the simplest form,
+                          followed by disaccharides (two monosaccharides joined together), oligosaccharides (generally
+                          3-10 monosaccharides joined together) and finally polysaccharides, which are very long chains
+                          of monosaccharides. Cellulose, a polysaccharide and key structural component of plant cell
+                          walls, makes up around 7% of the dry leaf weight, however it doesn't make it into the final
+                          cup due to its insolubility in water. It is for this reason that it is well-suited for making
+                          teabags. Many carbohydrates within the dry leaf do make it into the final cup, such as
+                          sucrose, myo-inositol, glucose and fructose{" "}
+                          <Cite id="nelum2022" referenceNumbers={pageReferenceNumbers} />{" "}
+                          <Cite id="shevchuk2020" referenceNumbers={pageReferenceNumbers} />
                         </li>
                       </ul>
                     </div>
