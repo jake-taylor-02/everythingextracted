@@ -1,9 +1,10 @@
 import Link from "next/link"
-import { ArrowLeft } from "lucide-react"
+import { ArrowLeft, ArrowRight } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
-export default function TeaPage() {
+export default function MilkPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-10 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -34,15 +35,87 @@ export default function TeaPage() {
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Tea</h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  Explore the world of tea: varieties, brewing science, origins, and health benefits
+                  Everything you ought to know about the world's second most popular beverage, after water
                 </p>
               </div>
             </div>
 
-            <div className="prose prose-gray max-w-3xl mx-auto">
-              <p className="text-center text-muted-foreground italic">
-                This section is coming soon.
-              </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+              <Card className="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md hover:-translate-y-1 duration-300 flex flex-col">
+                <CardHeader className="p-6 pb-0">
+                  <CardTitle>The Fundamentals of Tea</CardTitle>
+                  <CardDescription>A few articles to get started on the origin, science and preperation of tea</CardDescription>
+                </CardHeader>
+                <CardContent className="p-6 pt-4 flex flex-col flex-1">
+                  <ul className="space-y-2 text-sm">
+                    <li className="flex items-start gap-2">
+                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#EB5353" }} />
+                      <Link href="/the-information-zone/tea/fundamentals/overview" className="hover:underline">
+                        Tea - A General Overview
+                      </Link>
+                    </li>
+
+                    {/*
+                    <li className="flex items-start gap-2">
+                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#F9D923" }} />
+                      <Link href="/the-information-zone/milk/dairy-milk/chemistry" className="hover:underline">
+                        Something must go here
+                      </Link>
+                    </li>
+                    */}
+                  </ul>
+                  <div className="mt-auto pt-4">
+                    <Button asChild variant="outline" size="sm" className="w-full h-10">
+                      <Link href="/the-information-zone/tea/fundamentals">Learn More</Link>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+              
+              {/*
+
+              <Card className="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md hover:-translate-y-1 duration-300 flex flex-col">
+                <CardHeader className="p-6 pb-0">
+                  <CardTitle>Plant-Based Milk</CardTitle>
+                  <CardDescription>Non-dairy alternatives</CardDescription>
+                </CardHeader>
+                <CardContent className="p-6 pt-4 flex flex-col flex-1">
+                  <ul className="space-y-2 text-sm">
+                    <li className="flex items-start gap-2">
+                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#EB5353" }} />
+                      <Link href="/the-information-zone/milk/plant-based-milk/oat-milk" className="hover:underline">
+                        Oat Milk
+                      </Link>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#F9D923" }} />
+                      <Link href="/the-information-zone/milk/plant-based-milk/almond-milk" className="hover:underline">
+                        Almond Milk
+                      </Link>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#36AE7C" }} />
+                      <Link href="/the-information-zone/milk/plant-based-milk/coconut-milk" className="hover:underline">
+                        Coconut Milk
+                      </Link>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#187498" }} />
+                      <Link href="/the-information-zone/milk/plant-based-milk/soya-milk" className="hover:underline">
+                        Soya Milk
+                      </Link>
+                    </li>
+                  </ul>
+                  <div className="mt-auto pt-4">
+                    <Button asChild variant="outline" size="sm" className="w-full h-10">
+                      <Link href="/the-information-zone/milk/plant-based-milk">Learn More</Link>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+
+              */ }
+
             </div>
 
             <div className="mt-12 flex justify-center">

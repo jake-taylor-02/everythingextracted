@@ -30,8 +30,8 @@ export default function InformationZonePage() {
       accentColor: "#F9D923", // Yellow
       subpages: [
         {
-          title: "Coming soon",
-          href: "/the-information-zone/tea",
+          title: "The Fundamentals of Tea",
+          href: "/the-information-zone/tea/fundamentals",
           color: "#F9D923", // Yellow (2nd)
         },
       ],
