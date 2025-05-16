@@ -825,7 +825,7 @@ export default function TeaOverviewPage() {
 
               <Card>
                 <CardContent className="p-6 space-y-6">
-                  <h2 className="text-2xl font-bold tracking-tight mb-1">Decoding the contents of tea</h2>
+                  <h2 className="text-2xl font-bold tracking-tight mb-1">Decoding the Contents of Tea</h2>
                   <div className="space-y-4">
                     <div>
                       Now that we've examined the components of tea in its leaf form and how they're affected by two
