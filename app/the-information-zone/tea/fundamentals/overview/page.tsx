@@ -839,14 +839,14 @@ export default function TeaOverviewPage() {
                           tea represents 30 to 40% of the dry leaf content{" "}
                           <Cite id="harbowy1997" referenceNumbers={pageReferenceNumbers} />. Most of this can be
                           acccounted for by flavonoids, a large class of naturally occuring compounds in plants. They
-                          fall into six groups, of which flavanols and flavonols are the most important in tea. The
+                          fall into six groups, with flavanols and flavonols making up the majority of them in tea. The
                           major flavanols of interest in tea are EC (epicatechin), ECG (epicatechin gallate), EGC
-                          (epigallocatechin) and the most abundant, EGCG (epigallocatechin gallate{" "}
+                          (epigallocatechin) and the most abundant, EGCG (epigallocatechin gallate){" "}
                           <Cite id="amra2006" referenceNumbers={pageReferenceNumbers} />, there are 4 more of less
                           significance. Together, these account for around 25% of the dry leaf content. Flavonols make
                           up a much smaller percentage of the dry leaf content, and include kaempferol, quercitin, and
                           myricitin. Polyphenols are responsible for the bitterness in brewed tea and the astringency, a
-                          drying, roughing and puckering sensation in the mouth, similar to what is felt when drinking a
+                          drying, roughing, and puckering sensation in the mouth, similar to what is felt when drinking a
                           dry red wine <Cite id="gawel2001" referenceNumbers={pageReferenceNumbers} />
                         </li>
 
