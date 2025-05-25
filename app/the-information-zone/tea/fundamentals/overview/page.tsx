@@ -143,7 +143,7 @@ export default function TeaOverviewPage() {
                     </div>
 
                     <div>
-                      There are two main varieties of Camellia Sinensis used for tea production, though others do exist:
+                      There are two main varieties of Camellia Sinensis used for tea production, though others exist:
                     </div>
 
                     <div>
@@ -170,30 +170,29 @@ export default function TeaOverviewPage() {
                   <h2 className="text-2xl font-bold tracking-tight">Herbal Teas / Tisanes</h2>
                   <div className="space-y-4">
                     <div>
-                      It's important to note that not all beverages called "tea" are made from the camellia sinensis
-                      plant. Herbal teas, or tisanes, are made from herbs, fruits, flowers, and other plant materials.
+                      It's important to note that not all beverages called "tea" come from the camellia sinensis
+                      plant. Herbal teas, or tisanes, often consist of herbs, fruits, flowers, and other plant materials.
                       Here are a few examples:
                     </div>
 
                     <div>
                       <ul className="list-disc pl-6 mt-2 space-y-2">
                         <li>
-                          <strong>Chamomile:</strong> Made from whole or crushed flowers of chamomile - a daisy-like
-                          plant. Has a yellow appearance, and is steeped in hot water
+                          <strong>Chamomile:</strong> Made from whole or crushed chamomile flowers. Has a yellow appearance, and is steeped in hot water
                         </li>
                         <li>
-                          <strong>Rooibos:</strong> Rooibos (in Afrikaans) - literally meaning red bush, is a herbal tea
+                          <strong>Rooibos:</strong> Rooibos (in Afrikaans) - meaning red bush, is a herbal tea
                           made from the leaves of the rooibos plant, native to the Western Cape in South Africa. It gets
                           its name from the red appearance of the leaves after they have undergone oxidation{" "}
-                          <Cite id="klipopmekaar2023" referenceNumbers={pageReferenceNumbers} />. It can be enjoyed in
-                          many ways, uniquely as a 'red cappuccino', where ground coffee is substituted for finely
+                          <Cite id="klipopmekaar2023" referenceNumbers={pageReferenceNumbers} />. Rooibos can be prepared in
+                          many ways, uniquely as a 'red cappuccino', through substituting ground coffee for finely
                           ground rooibos leaves, which are extracted in a similar way in an espresso machine before the
                           addition of foamed milk <Cite id="redespresso2023" referenceNumbers={pageReferenceNumbers} />
                         </li>
                         <li>
-                          <strong>Ginger:</strong> Prepared from the rhiozme (underground stem) of the ginger plant,
+                          <strong>Ginger:</strong> Prepared from the rhizome (underground stem) of the ginger plant,
                           which is commonly known as ginger root. Ginger tea is usually made by steeping slices of
-                          ginger root in hot water, and is often complimented with lemon, sugar or honey
+                          ginger root in hot water and often complimented with lemon, sugar or honey
                         </li>
                       </ul>
                     </div>
@@ -207,8 +206,8 @@ export default function TeaOverviewPage() {
                   <div className="space-y-4">
                     <div>
                       Although, broadly speaking, there are the two tea varieties detailed above, in reality there are
-                      thousands of different <em>varietals</em> that can be categorised as either one or a mixture of
-                      the varieties. Here's a brief runthrough of some of the ways they came about:
+                      thousands of different <em>varietals</em> that are categorised as either one or a mixture of
+                      the varieties. Here's a brief run-through of some of the ways they came about:
                     </div>
 
                     <div>
@@ -258,12 +257,12 @@ export default function TeaOverviewPage() {
                       <h3 className="text-lg font-semibold mt-1 mb-2">Open pollination</h3>
                       <ul className="list-disc pl-6 mt-2 space-y-2">
                         <li>
-                          Open pollination refers to the natural fertilisation process where tea plants are pollinated
+                          Open pollination refers to the natural fertilisation process, the pollination of tea plants 
                           by insects, wind, or other natural means without interference by humans
                         </li>
                         <li>
-                          This process can result in the creation of favorable new varietals and contributes to a
-                          genetically diverse crop population, however it also leads to inconsistency among the crops
+                          This process often results in the creation of favorable new varietals and contributes to a
+                          genetically diverse crop population, however, it also leads to inconsistency among the crops
                         </li>
                       </ul>
 
@@ -457,27 +456,27 @@ export default function TeaOverviewPage() {
                       </div>
                     </div>
                     <div>
-                      Though this data is incomplete due to the complexities of gathering it, there are a few countries
-                      that stand out when it comes to their tea consumption habits:
+                      Though this data is incomplete because of the complexities of gathering it, there are a few countries
+                      that stand out with their tea consumption habits:
                     </div>
                     <div>
                       <ul className="list-disc pl-6 mt-2 space-y-2">
                         <li>
                           <strong>Turkey:</strong> Tea is a large part of Turkish culture, and you'll spot it everywhere
                           you go. The average consumption of 3.16 kg/capita works out as 3-4 cups of tea a day. Black
-                          tea is the tea of choice in Turkey, and the state owned company Çaykur reports that they
+                          tea is the tea of choice in Turkey, and the state-owned company Çaykur reports that they
                           purchase approximately 55-60% of the fresh tea produced in the region, depending on the year{" "}
                           <Cite id="caykur2025" referenceNumbers={pageReferenceNumbers} />. Turkey used to subject tea
-                          exports to a 145% tariff to protect domestic production, but this has since been reduced, for
-                          example, there is now no tariff on tea imported into the UK{" "}
+                          exports to a 145% tariff to protect domestic production, but this has since been reduced; for
+                          instance, tea imported into the UK is now tariff-free {" "}
                           <Cite id="uk_turkey_fta" referenceNumbers={pageReferenceNumbers} />
                         </li>
                         <li>
                           <strong>Ireland:</strong> Tea was introduced to Ireland less than 300 years ago, and it is the
                           hot beverage of choice. Barry's and Lyons, both originating at the beginning of the 20th
-                          century in Ireland, are two favourites. Barry's is still family owned, and makes up nearly 40%
+                          century in Ireland, are two favourites. Barry's is still family owned and makes up nearly 40%
                           of tea sales in Ireland <Cite id="barrys_tea" referenceNumbers={pageReferenceNumbers} />.
-                          Irish Breakfast Tea is a a blend of black teas known for its high Assam content — a tea from
+                          Irish Breakfast Tea is a blend of black teas known for its high Assam content — a tea from
                           the Assam region in northeastern India — characterised by a strong, malty, and robust flavor
                         </li>
                       </ul>
@@ -838,15 +837,15 @@ export default function TeaOverviewPage() {
                           Polyphenols are groups of chemical compounds called phenols, and the polyphenolic fraction of
                           tea represents 30 to 40% of the dry leaf content{" "}
                           <Cite id="harbowy1997" referenceNumbers={pageReferenceNumbers} />. Most of this can be
-                          acccounted for by flavonoids, a large class of naturally occuring compounds in plants. They
-                          fall into six groups, with flavanols and flavonols making up the majority of them in tea. The
+                          accounted for by flavonoids, a large class of naturally occurring compounds in plants. They
+                          fall into six groups, with flavanols and flavonols making up the majority of flavonoids in tea. The
                           major flavanols of interest in tea are EC (epicatechin), ECG (epicatechin gallate), EGC
                           (epigallocatechin) and the most abundant, EGCG (epigallocatechin gallate){" "}
                           <Cite id="amra2006" referenceNumbers={pageReferenceNumbers} />, there are 4 more of less
                           significance. Together, these account for around 25% of the dry leaf content. Flavonols make
                           up a much smaller percentage of the dry leaf content, and include kaempferol, quercitin, and
                           myricitin. Polyphenols are responsible for the bitterness in brewed tea and the astringency, a
-                          drying, roughing, and puckering sensation in the mouth, similar to what is felt when drinking a
+                          drying, roughing, and puckering sensation in the mouth, similar to the sensation you get when drinking a
                           dry red wine <Cite id="gawel2001" referenceNumbers={pageReferenceNumbers} />
                         </li>
 
@@ -855,11 +854,11 @@ export default function TeaOverviewPage() {
                           stimulant in the world, and accounts for around 1.5-4% of the dry weight of tea leaves{" "}
                           <Cite id="tfouni2018" referenceNumbers={pageReferenceNumbers} />. It is part of the alkaloids,
                           a broad class of naturally occurring organic compounds that contain at least one nitrogen
-                          atom. Alkaloids are secondary metabolites that generally mediate ecological interactions,
-                          providing a selective advantage to the organism rather than contributing directly to its
+                          atom. Alkaloids are secondary metabolites that mediate ecological interactions,
+                          in many cases providing a selective advantage to the organism rather than contributing directly to its
                           growth, development, or reproduction. Many alkaloids have a bitter taste{" "}
                           <Cite id="modernalkaloids" referenceNumbers={pageReferenceNumbers} />, and caffeine is no
-                          exception, acting as a natural insecticide due to its bitterness. Theobromine is another
+                          exception, acting as a natural insecticide beacause of its bitterness. Theobromine is another
                           alkaloid in tea, but exists in much smaller quantities
                         </li>
 
@@ -875,13 +874,13 @@ export default function TeaOverviewPage() {
 
                         <li>
                           <strong>Carbohydrates: </strong> Carbohydrates, one of the 3 macronutrient groups, are
-                          molecules comprised of carbon, hydrogen and oxygen. Monosaccharides are the simplest form,
+                          molecules composed of carbon, hydrogen and oxygen atoms. Monosaccharides are the simplest form,
                           followed by disaccharides (two monosaccharides joined together), oligosaccharides (generally
                           3-10 monosaccharides joined together) and finally polysaccharides, which are very long chains
                           of monosaccharides. Cellulose, a polysaccharide and key structural component of plant cell
                           walls, makes up around 7% of the dry leaf weight, however it doesn't make it into the final
-                          cup due to its insolubility in water. It is for this reason that it is well-suited for making
-                          teabags. Many carbohydrates within the dry leaf do make it into the final cup, such as
+                          cup because of its insolubility in water. It is for this reason that it is well-suited for making
+                          tea bags. Many carbohydrates within the dry leaf end up in the final cup, such as
                           sucrose, myo-inositol, glucose and fructose{" "}
                           <Cite id="nelum2022" referenceNumbers={pageReferenceNumbers} />{" "}
                           <Cite id="shevchuk2020" referenceNumbers={pageReferenceNumbers} />
