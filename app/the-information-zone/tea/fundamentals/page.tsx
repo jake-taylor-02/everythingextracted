@@ -41,7 +41,7 @@ export default function DairyMilkPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <Card className="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md hover:-translate-y-1 duration-300 flex flex-col">
                 <CardHeader className="p-6 pb-0">
-                  <CardTitle>Tea - A General Overview</CardTitle>
+                  <CardTitle>Tea - what it is, where it's grown and consumed, and its key contents</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 pt-4 flex-grow">
                   <p className="min-h-[96px]">
@@ -62,6 +62,25 @@ export default function DairyMilkPage() {
                 </CardFooter>
               </Card>
 
+              <Card className="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md hover:-translate-y-1 duration-300 flex flex-col">
+                <CardHeader className="p-6 pb-0">
+                  <CardTitle>The function of tea leaves, and their key components</CardTitle>
+                </CardHeader>
+                <CardContent className="p-6 pt-4 flex-grow">
+                  <p className="min-h-[96px]">Learn about the structure of leaves, and the role leaves play as the site of photosynthesis</p>
+                </CardContent>
+                <CardFooter className="p-6 pt-0">
+                  <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">
+                    <Link
+                      href="/the-information-zone/tea/fundamentals/leaves"
+                      className="flex items-center justify-center"
+                    >
+                      Read More
+                      <ArrowRight className="h-4 w-4 ml-2" />
+                    </Link>
+                  </Button>
+                </CardFooter>
+              </Card>
               {/* Additional cards can be added here in the future */}
             </div>
 

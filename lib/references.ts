@@ -348,23 +348,24 @@ export const references: Record<string, Reference> = {
     url: "https://redespresso.co.uk/rooibos-red-cappuccino/",
   },
   balentine1997: {
-    authors: "Douglas A. Balentine, Sheila A. Wiseman & Liesbeth C. M. Bouwens",
+    authors: "Douglas A. Balentine, Sheila A. Wiseman & Liesbeth C. M. Bouwens.",
     year: 1997,
     title: "The chemistry of tea flavonoids",
     source: "Critical Reviews in Food Science and Nutrition, 37:8, 693-704",
     url: "https://doi.org/10.1080/10408399709527797",
   },
   harbowy1997: {
-    authors: "Harbowy, M. E., Balentine, D. A., Davies, A. P., & Cai, Y",
+    authors: "Harbowy, M. E., Balentine, D. A., Davies, A. P., & Cai, Y.",
     year: 1997,
     title: "Tea Chemistry",
     source: "Critical Reviews in Plant Sciences, 16(5), 415–480",
     url: "https://doi.org/10.1080/07352689709701956",
   },
   theanine_content: {
-    authors: "EA. Alcázar, O. Ballesteros, J. M. Jurado, F. Pablos, M. J. Martín, J. L. Vilches, and A. Navalón",
+    authors: "EA. Alcázar, O. Ballesteros, J. M. Jurado, F. Pablos, M. J. Martín, J. L. Vilches, and A. Navalón.",
     year: 2007,
-    title: "Differentiation of Green, White, Black, Oolong, and Pu-erh Teas According to Their Free Amino Acids Content",
+    title:
+      "Differentiation of Green, White, Black, Oolong, and Pu-erh Teas According to Their Free Amino Acids Content",
     source: "Journal of Agricultural and Food Chemistry, 55 (15), 5960-5965",
     url: "https://pubs.acs.org/doi/10.1021/jf070601a",
   },
@@ -378,70 +379,154 @@ export const references: Record<string, Reference> = {
   theanine_caffeine: {
     authors: "Li, M. Y., Liu, H. Y., Wu, D. T., Kenaan, A., Geng, F., Li, H. B., Gunaratne, A., Li, H., & Gan, R. Y.",
     year: 2022,
-    title: "L-Theanine: A Unique Functional Amino Acid in Tea (Camellia sinensis L.) With Multiple Health Benefits and Food Applications",
+    title:
+      "L-Theanine: A Unique Functional Amino Acid in Tea (Camellia sinensis L.) With Multiple Health Benefits and Food Applications",
     source: "Frontiers in nutrition, 9, 853846",
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9014247/",
   },
-    amra2006: {
+  amra2006: {
     authors: "Amra Perva-Uzunalić, Mojca Škerget, Željko Knez, Bernd Weinreich, Frank Otto, Sabine Grüner",
     year: 2006,
-    title: "Extraction of active ingredients from green tea (Camellia sinensis): Extraction efficiency of major catechins and caffeine",
+    title:
+      "Extraction of active ingredients from green tea (Camellia sinensis): Extraction efficiency of major catechins and caffeine",
     source: "Food Chemistry, 96 (4), 597-605",
     url: "https://doi.org/10.1016/j.foodchem.2005.03.015",
   },
-    tfouni2018: {
-    authors: "Silvia Amelia Verdiani Tfouni, Maíra Marcuci Camara, Kamille Kamikata, Fernanda Moralez Leme Gomes, Regina Prado Zanes Furlani",
+  tfouni2018: {
+    authors:
+      "Silvia Amelia Verdiani Tfouni, Maíra Marcuci Camara, Kamille Kamikata, Fernanda Moralez Leme Gomes, Regina Prado Zanes Furlani",
     year: 2018,
     title: "Caffeine in teas: levels, transference to infusion and estimated intake",
     source: "Food Sci. Technol 38 (4)",
     url: "https://doi.org/10.1590/1678-457X.12217",
   },
-    gawel2001: {
-    authors: "R. Gawel, P.G. Iland, I.L. Francis",
+  gawel2001: {
+    authors: "R. Gawel, P.G. Iland, I.L. Francis.",
     year: 2001,
     title: "Characterizing the astringency of red wine: a case study",
     source: "Food Quality and Preference, 12 (1), 83-94",
     url: "https://doi.org/10.1016/S0950-3293(00)00033-1",
   },
-    modernalkaloids: {
+  modernalkaloids: {
     authors: "Ernesto Fattorusso and Orazio Taglialatela-Scafati",
     year: 2007,
     title: "Modern Alkaloids: Structure, Isolation, Synthesis and Biology",
     source: "Wiley-VCH, p.58, ISBN:9783527315215",
-    url: "https://doi.org/10.1002/9783527621071"
+    url: "https://doi.org/10.1002/9783527621071",
   },
-    shevchuk2020: {
+  shevchuk2020: {
     authors: "Anastasiia Shevchuk, Roberto Megías-Pérez, Yeweynwuha Zemedie, Nikolai Kuhnert",
     year: 2020,
-    title: "Evaluation of carbohydrates and quality parameters in six types of commercial teas by targeted statistical analysis",
+    title:
+      "Evaluation of carbohydrates and quality parameters in six types of commercial teas by targeted statistical analysis",
     source: "Food Research International, 133",
     url: "https://doi.org/10.1016/j.foodres.2020.109122",
-  }, 
-    nelum2022: {
-    authors: "K.G. Nelum P． Piyasena, L.S.K. Hettiarachchi, S.A. D．P．S． Jayawardhane, E.N. U． Edirisinghe, W.S. Jayasinghe",
+  },
+  nelum2022: {
+    authors:
+      "K.G. Nelum P． Piyasena, L.S.K. Hettiarachchi, S.A. D．P．S． Jayawardhane, E.N. U． Edirisinghe, W.S. Jayasinghe.",
     year: 2022,
-    title: "Evaluation of inherent fructose, glucose and sucrose concentrations in tea leaves (Camellia sinensis L.) and in black tea",
+    title:
+      "Evaluation of inherent fructose, glucose and sucrose concentrations in tea leaves (Camellia sinensis L.) and in black tea",
     source: "Applied Food Research, 2 (1)",
     url: "https://doi.org/10.1016/j.afres.2022.100100",
-  }, 
-    wikipedia_tea_processing: {
+  },
+  wikipedia_tea_processing: {
     authors: "Sjschen",
     year: 2007,
     title: "Tea processing diagram",
     source: "Wikimedia Commons",
     url: "https://commons.wikimedia.org/wiki/File:Teaprocessing.svg",
   },
+  britannica_chloroplast: {
+    authors: "Encyclopædia Britannica",
+    year: 2025,
+    title: "Chloroplast structure",
+    source: "Encyclopædia Britannica",
+    url: "https://www.britannica.com/science/chloroplast#/media/1/113761/45552",
+  },
+  chlorophyll_spectra: {
+    authors: "Daniele Pugliesi (Original), M0tty (Vector)",
+    year: 2023,
+    title: "Chlorophyll ab spectra",
+    source: "Wikimedia Commons",
+    url: "https://commons.wikimedia.org/w/index.php?curid=20509583",
+  },
+  leaf_tissue_structure: {
+    authors: "Zephyris",
+    year: 2011,
+    title: "Leaf Tissue Structure",
+    source: "Wikimedia Commons",
+    url: "https://en.wikipedia.org/wiki/File:Leaf_Tissue_Structure.svg",
+  },
+  openstax_photosynthesis: {
+    authors: "Samantha Fowler, Rebecca Roush, James Wise",
+    year: 2013,
+    title: "The Light-Dependent Reactions of Photosynthesis",
+    source: "Concepts of Biology, OpenStax",
+    url: "https://openstax.org/books/concepts-biology/pages/5-2-the-light-dependent-reactions-of-photosynthesis",
+  },
+  cuticle_composition: {
+    authors: "Arya Gulab Chand , Sarkar Sutanni , Manasherova Ekaterina , Aharoni Asaph , Cohen Hagai",
+    year: 2021,
+    title: "The Plant Cuticle: Old Challenges, New Perspectives",
+    source: "Frontiers in Plant Science, 12, 663165",
+    url: "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2021.663165/full",
+  },
+  stomatal_function: {
+    authors: "Jezek M, Blatt MR.",
+    year: 2017,
+    title: "The Membrane Transport System of the Guard Cell and Its Integration for Stomatal Dynamics",
+    source: "Plant Physiology, 74(2), 487-519",
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5462021/",
+  },
+  stomatal_sensing: {
+    authors: "Hetherington, A. M., & Woodward, F. I.",
+    year: 2003,
+    title: "The role of stomata in sensing and driving environmental change",
+    source: "Nature, 424, 901-908",
+    url: "https://www.researchgate.net/publication/10603718_Hetherington_A_M_Woodward_F_I_The_role_of_stomata_in_sensing_and_driving_environmental_change_Nature_424_901-908",
+  },
+  trichome_functions: {
+    authors: "Ma D, Hu Y, Yang C, et al.",
+    year: 2016,
+    title: "Genetic basis for glandular trichome formation in cotton.",
+    source: "Nat Commun. 2016;7:10456",
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4735898/",
+  },
+  trichome_protection: {
+    authors: "Cao H, Li J, Ye Y, et al.",
+    year: 2020,
+    title: "Integrative Transcriptomic and Metabolic Analyses Provide Insights into the Role of Trichomes in Tea Plant (Camellia Sinensis)",
+    source: "Biomolecules. 2020;10(2):311",
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7072466",
+  },
+  palisade_cells: {
+    authors: "Hejiku A",
+    year: 2025,
+    title: "Structure, Function, and Importance of Palisade Cells in Photosynthesis",
+    source: "J Plant Biochem Physiol. 13:339",
+    url: "https://www.longdom.org/open-access/structure-function-and-importance-of-palisade-cells-in-photosynthesis-1102607.html",
+  },
+  spongy_mesophyll: {
+    authors: "Borsuk AM, Roddy AB, Théroux-Rancourt G, Brodersen CR.",
+    year: 2022,
+    title: "BStructural organization of the spongy mesophyll",
+    source: "PNew Phytol. 2022;234(3):946-960",
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9303971/",
+  },
+  water_transport: {
+    authors: "McElrone, A. J., Choat, B., Gambetta, G. A. & Brodersen, C. R.",
+    year: 2013,
+    title: "Water Uptake and Transport in Vascular Plants",
+    source: "Nature Education Knowledge 4(5):6",
+    url: "https://www.nature.com/scitable/knowledge/library/water-uptake-and-transport-in-vascular-plants-103016037/",
+  },
+  openstax_transport: {
+    authors: "Connie Rye, Robert Wise, Vladimir Jurukovski, Jean DeSaix, Jung Choi, Yael Avissar",
+    year: 2016,
+    title: "Transport of Water and Solutes in Plants",
+    source: "Biology, OpenStax",
+    url: "https://openstax.org/books/biology/pages/30-5-transport-of-water-and-solutes-in-plants",
+  },
 }
-
-      {/*     
-
-    : {
-    authors: "",
-    year: ,
-    title: "",
-    source: "",
-    url: "",
-  }, 
-  
-  
-  */}

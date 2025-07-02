@@ -106,10 +106,10 @@ export default function TeaOverviewPage() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  Tea - A General Overview
+                  Tea - what it is, where it's grown and consumed, and its key contents
                 </h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  The world's second most consumed beverage after water
+                  The basics that you need to know about the world's second most consumed beverage after water
                 </p>
               </div>
             </div>
@@ -864,8 +864,7 @@ export default function TeaOverviewPage() {
 
                         <li>
                           <strong>Amino Acids: </strong>There are around 500 amino acids that exist in nature, and they
-                          are essential building blocks that construct protein. While these only make up 4% of the dry
-                          leaf content, they are of significant importance. Making up over 50% of these amino acids is
+                          are essential building blocks that construct proteins. While these only make up 4% of the dry leaf content, they are still involved in the taste profile of the final beverage. Making up over 50% of these amino acids is
                           L-theanine <Cite id="theanine_content" referenceNumbers={pageReferenceNumbers} />, which is of
                           interest due to its contribution to the desirable umami qualities of tea{" "}
                           <Cite id="theanine_umami" referenceNumbers={pageReferenceNumbers} />, and its synergistic

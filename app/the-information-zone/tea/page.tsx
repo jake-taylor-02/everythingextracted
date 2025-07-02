@@ -51,18 +51,15 @@ export default function MilkPage() {
                     <li className="flex items-start gap-2">
                       <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#EB5353" }} />
                       <Link href="/the-information-zone/tea/fundamentals/overview" className="hover:underline">
-                        Tea - A General Overview
+                        Tea - what it is, where it's grown and consumed, and its key contents
                       </Link>
                     </li>
-
-                    {/*
                     <li className="flex items-start gap-2">
                       <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#F9D923" }} />
-                      <Link href="/the-information-zone/milk/dairy-milk/chemistry" className="hover:underline">
-                        Something must go here
+                      <Link href="/the-information-zone/tea/fundamentals/leaves" className="hover:underline">
+                      The function of tea leaves, and their key components
                       </Link>
                     </li>
-                    */}
                   </ul>
                   <div className="mt-auto pt-4">
                     <Button asChild variant="outline" size="sm" className="w-full h-10">
