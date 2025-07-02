@@ -1,4 +1,4 @@
-"use client"
+{/*"use client"
 
 import Link from "next/link"
 import { ArrowLeft, Download, ExternalLink } from "lucide-react"
@@ -415,3 +415,5 @@ const flavorData = [
     nuttiness: 8,
   },
 ]
+
+/*}
