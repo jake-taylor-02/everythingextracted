@@ -1,12 +1,24 @@
 "use client"
 
+{/*
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
-
 import { Button } from "@/components/ui/button"
 import { Cite, References } from "@/components/simple-reference"
 import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
+*/}
+
+import Link from "next/link"
+import { ArrowLeft, Leaf } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { Card, CardContent } from "@/components/ui/card"
+import { Cite, References, type ReferenceNumbersMap } from "@/components/simple-reference"
+import { useEffect } from "react"
+import { Pie } from "react-chartjs-2"
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js"
+
+ChartJS.register(ArcElement, Tooltip, Legend)
 
 const pageReferenceNumbers = {
   britannica_chloroplast: 1,
