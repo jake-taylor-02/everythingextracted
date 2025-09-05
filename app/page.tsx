@@ -111,7 +111,9 @@ export default function Home() {
                     </li>
                     <li className="flex items-start gap-2">
                       <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#F9D923" }} />
-                      <span>More Coming Soon...</span>
+                      <Link href="/blog/tracking-my-tea-collection"
+                      className="hover:underline">
+                      <span>Tracking my tea collection</span>
                     </li>
                   </ul>
                 </CardContent>

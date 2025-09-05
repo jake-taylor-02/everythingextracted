@@ -89,7 +89,7 @@ export default function BlogPage() {
             </div>
 
             <div className="mt-12 flex justify-center">
-              <Button asChild variant="outline" className="gap-2">
+              <Button asChild variant="outline" className="gap-2 bg-transparent">
                 <Link href="/">
                   <ArrowLeft className="h-4 w-4" />
                   Back to Home
@@ -104,6 +104,15 @@ export default function BlogPage() {
 }
 
 const blogPosts = [
+  {
+    title: "Tracking my tea collection",
+    slug: "tracking-my-tea-collection",
+    subtitle: "Organizing and cataloging an ever-growing tea collection",
+    date: "September 5, 2025",
+    excerpt:
+      "20+ teas in and I'm slowly figuring out what I like",
+    readTime: 3,
+  },
   {
     title: "The why behind the site",
     slug: "the-why-behind-the-site",
