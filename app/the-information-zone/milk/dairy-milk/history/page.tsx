@@ -237,7 +237,7 @@ export default function MilkHistoryPage() {
                     <div className="mt-4">
                       <figure className="relative">
                         <Image
-                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Figure%202%20-%20The%20impact%20of%20cis-acting%20polymorphisms%20on%20the%20human%20phenotype-wELKDQJWyt0Wt5aN8k1qP4xSWWI9ZC.png"
+                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/Figure%202%20-%20The%20impact%20of%20cis-acting%20polymorphisms%20on%20the%20human%20phenotype%281%29-9tTjqCI07DhZkTLprorVPMkGsqVkN4.png"
                           alt="Diagram showing the MCM6 and LCT genes and their regulatory elements"
                           width={800}
                           height={400}
@@ -272,7 +272,7 @@ export default function MilkHistoryPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
                       <figure className="relative">
                         <Image
-                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/13910t-DP1jtLJ0WT4TRkHSSlxDZL56dw9PPY.png"
+                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/13910t%281%29-r7LKlLWX5JbdyOqjsIQpJ7jDTJnX7V.png"
                           alt="Geographic distribution of -13,910*T variant"
                           width={400}
                           height={300}
@@ -281,7 +281,7 @@ export default function MilkHistoryPage() {
                       </figure>
                       <figure className="relative">
                         <Image
-                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/13915g-o4eQ6pl2rxlYtol2OsGfIHaUb6nN4J.png"
+                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/13915g%281%29-fo4gaIvHNVvTpKFoa1IeDE1FwOMaLU.png"
                           alt="Geographic distribution of -13,915*G variant"
                           width={400}
                           height={300}
@@ -290,7 +290,7 @@ export default function MilkHistoryPage() {
                       </figure>
                       <figure className="relative">
                         <Image
-                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/13907g-ytjMANknkjLGj7QYz4wqYHy6MxGSVT.png"
+                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/13907g%281%29-a86fuZRxBWOSAlnBuXpQhHTDKWqqdV.png"
                           alt="Geographic distribution of -13,907*G variant"
                           width={400}
                           height={300}
@@ -299,7 +299,7 @@ export default function MilkHistoryPage() {
                       </figure>
                       <figure className="relative">
                         <Image
-                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/14009g-X9mnl4OZgH4HRgwVFgmzjULMWyi6Ne.png"
+                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/14009g%281%29-gRX5FthEZthMNGXcgxDQYeFX3A5imQ.png"
                           alt="Geographic distribution of -14,009*G variant"
                           width={400}
                           height={300}
@@ -310,7 +310,7 @@ export default function MilkHistoryPage() {
                     <div className="mt-2">
                       <figure className="relative">
                         <Image
-                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/14010c-2logdrtDRh7PvspZfKHKwI0LlwErsw.png"
+                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/14010c%281%29-RxhzkrHlu9vKKkPtK8fbFK1NU5weG4.png"
                           alt="Geographic distribution of -14,010*C variant"
                           width={400}
                           height={300}
