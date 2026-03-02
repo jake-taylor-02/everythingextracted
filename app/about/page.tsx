@@ -76,7 +76,7 @@ export default function AboutPage() {
                       </li>
                       <li className="flex items-center gap-2">
                         <div className="h-2 w-2 rounded-full" style={{ backgroundColor: "#F9D923" }} />
-                        <span>Baratza Encore ESP & Kingrinder K6</span>
+                        <span>Kingrinder K6</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <div className="h-2 w-2 rounded-full" style={{ backgroundColor: "#36AE7C" }} />
