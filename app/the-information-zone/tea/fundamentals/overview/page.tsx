@@ -106,7 +106,7 @@ export default function TeaOverviewPage() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  Tea - what it is, where it's grown and consumed, and its key contents
+                  Tea - what it is, where its grown and consumed, and its key contents
                 </h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                   The basics that you need to know about the world's second most consumed beverage after water
