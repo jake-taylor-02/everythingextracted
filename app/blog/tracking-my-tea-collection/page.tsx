@@ -64,7 +64,7 @@ export default function SamplePostPage() {
               Twinings Lemon & Ginger with some honey. Since then, I've come to learn what tea actually is, and I've
               tried many, mostly from What-Cha and Lalani & Co, with a few odd ones here and there. I'm often hesitant
               to order tea in a café, as it is usually an afterthought (even in places that are very particular about
-              their coffee), and I only know of a few places in London that take tea seriously.
+              their coffee), and I only know of a few places in London that take tea seriously..
             </p>
 
             <h2>How I prepare tea at home</h2>
