@@ -57,84 +57,13 @@ export default function AboutPage() {
                       than water, things changed and I'm very enthusiastic about all things coffee, tea, cafe culture and more.
                     </p>
                     <p>
-                      I started working as a Barista in September 2024, and built this website to create a platform for others to read about the history, science and culture around the beverages that we consume. I've also invested in some equipment that
-                      should allow me to work on and publish some fun projects over the next few months.
+                      I started working as a Barista in September 2024, and built this website to share new articles that I write, interesting resources that I have found, so have a click around and learn something new!
                     </p>
                   </div>
                 </CardContent>
               </Card>
 
               <div className="space-y-6">
-                <Card>
-                  <CardHeader>
-                    <CardTitle>My Brewing Journey</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="space-y-4">
-                      <li className="flex gap-4">
-                        <div
-                          className="flex h-10 w-10 items-center justify-center rounded-full flex-shrink-0 aspect-square"
-                          style={{ backgroundColor: "#EB5353" }}
-                        >
-                          <span className="text-sm font-medium text-white">1</span>
-                        </div>
-                        <div className="space-y-1">
-                          <p className="font-medium">First Espresso</p>
-                          <p className="text-sm text-muted-foreground">
-                            After an all nighter in Budapest, I was reccomended a double espresso to remain awake for
-                            the day. That has turned out to be quite an expensive recommendation...
-                          </p>
-                        </div>
-                      </li>
-                      <li className="flex gap-4">
-                        <div
-                          className="flex h-10 w-10 items-center justify-center rounded-full flex-shrink-0 aspect-square"
-                          style={{ backgroundColor: "#F9D923" }}
-                        >
-                          <span className="text-sm font-medium text-white">2</span>
-                        </div>
-                        <div className="space-y-1">
-                          <p className="font-medium">Aquired a Moka Pot</p>
-                          <p className="text-sm text-muted-foreground">
-                            I purchased a 2 cup Bialetti Moka pot to get things started, which allowed me to experiment
-                            with different types of coffee.
-                          </p>
-                        </div>
-                      </li>
-                      <li className="flex gap-4">
-                        <div
-                          className="flex h-10 w-10 items-center justify-center rounded-full flex-shrink-0 aspect-square"
-                          style={{ backgroundColor: "#36AE7C" }}
-                        >
-                          <span className="text-sm font-medium text-white">3</span>
-                        </div>
-                        <div className="space-y-1">
-                          <p className="font-medium">Purchased a Gaggia Classic</p>
-                          <p className="text-sm text-muted-foreground">
-                            Knowing that I wanted to take the hobby seriously, I bought a Gaggia Classic to get in as
-                            much practice as I could
-                          </p>
-                        </div>
-                      </li>
-                      <li className="flex gap-4">
-                        <div
-                          className="flex h-10 w-10 items-center justify-center rounded-full flex-shrink-0 aspect-square"
-                          style={{ backgroundColor: "#187498" }}
-                        >
-                          <span className="text-sm font-medium text-white">4</span>
-                        </div>
-                        <div className="space-y-1">
-                          <p className="font-medium">Started working as a Barista</p>
-                          <p className="text-sm text-muted-foreground">
-                            In September 2024 I finally made the leap and started as a Barista at Café Kitsuné, which is
-                            where I still work today
-                          </p>
-                        </div>
-                      </li>
-                    </ul>
-                  </CardContent>
-                </Card>
-
                 <Card>
                   <CardHeader>
                     <CardTitle>My Current Setup</CardTitle>
@@ -147,7 +76,7 @@ export default function AboutPage() {
                       </li>
                       <li className="flex items-center gap-2">
                         <div className="h-2 w-2 rounded-full" style={{ backgroundColor: "#F9D923" }} />
-                        <span>Baratza Encore ESP & Kingrinder K6</span>
+                        <span>Kingrinder K6</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <div className="h-2 w-2 rounded-full" style={{ backgroundColor: "#36AE7C" }} />
