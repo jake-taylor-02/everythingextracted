@@ -132,7 +132,7 @@ export default function TeaOverviewPage() {
                     <div className="mt-4 mb-6">
                       <figure className="relative">
                         <img
-                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/pexels-photo-6130149%281%29-hiEfkEaWcASDkCho8LuowTVgf49oop.jpeg"
+                          src="/images/design-mode/pexels-photo-6130149%281%29.jpeg"
                           alt="Tea plantation in Vietnam with rows of tea plants on hillsides and misty mountains in the background"
                           className="rounded-md mx-auto w-full h-auto max-w-[800px]"
                         />
@@ -289,7 +289,7 @@ export default function TeaOverviewPage() {
                   <div className="mt-4 mb-6">
                     <figure className="relative">
                       <img
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/Teaprocessing%281%29-oTwTe0Y3jXTHnkonqGztZv2vyiFhFJ.svg"
+                        src="/images/design-mode/Teaprocessing%281%29.svg"
                         alt="Tea processing diagram showing how different types of tea are produced from the same plant"
                         className="rounded-md mx-auto w-full h-auto max-w-[800px]"
                       />

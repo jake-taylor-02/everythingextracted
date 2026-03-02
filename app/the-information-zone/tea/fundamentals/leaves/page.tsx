@@ -112,7 +112,7 @@ export default function TeaLeavesPage() {
 
                       <div className="my-8">
                         <Image
-                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/stacks-membrane-vesicles-stroma-matrix-chlorophyll-membranes%281%29-iRo9lgRkz9NJhch5I7aXvMrc2JUg3q.jpg"
+                          src="/images/design-mode/stacks-membrane-vesicles-stroma-matrix-chlorophyll-membranes%281%29.jpg"
                           alt="Chloroplast structure showing stroma, thylakoids, and membrane organization"
                           width={400}
                           height={267}
@@ -140,7 +140,7 @@ export default function TeaLeavesPage() {
 
                       <div className="my-8">
                         <Image
-                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/Chlorophyll_ab_spectra-en%281%29-AuGbktatcuBnFIDTzxkBqREaG6W16Q.svg"
+                          src="/images/design-mode/Chlorophyll_ab_spectra-en%281%29.svg"
                           alt="Chlorophyll absorption spectra showing peaks in blue and red wavelengths"
                           width={400}
                           height={266}
@@ -269,7 +269,7 @@ export default function TeaLeavesPage() {
 
                     <div className="my-8">
                       <Image
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/Leaf_Tissue_Structure%281%29-wbg4YwnTV47VB2hAjHpC0eSi7AojFP.svg"
+                        src="/images/design-mode/Leaf_Tissue_Structure%281%29.svg"
                         alt="Diagram showing the light-dependent reactions of photosynthesis"
                         width={640}
                         height={427}

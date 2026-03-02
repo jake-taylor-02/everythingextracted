@@ -137,7 +137,7 @@ export default function SamplePostPage() {
             >
               <img
                 alt="Made with Flourish"
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/made_with_flourish%281%29-LTAUSL9CuvaLJikUlEb5D2aWX5OV1k.svg"
+                src="/images/design-mode/made_with_flourish%281%29.svg"
                 style={{ width: "105px", height: "16px", border: "none", margin: "0" }}
               />
             </a>
