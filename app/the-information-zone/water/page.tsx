@@ -39,10 +39,35 @@ export default function WaterPage() {
               </div>
             </div>
 
-            <div className="prose prose-gray max-w-3xl mx-auto">
-              <p className="text-center text-muted-foreground italic">
-                This section is coming soon.
-              </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+              <Card className="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md hover:-translate-y-1 duration-300 flex flex-col">
+                <CardHeader className="p-6 pb-0">
+                  <CardTitle>The Fundamentals of Water</CardTitle>
+                  <CardDescription>Understanding the composition of water and how it affects out brews</CardDescription>
+                </CardHeader>
+                <CardContent className="p-6 pt-4 flex flex-col flex-1">
+                  <ul className="space-y-2 text-sm">
+                    <li className="flex items-start gap-2">
+                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#EB5353" }} />
+                      <Link href="/the-information-zone/tea/fundamentals/overview" className="hover:underline">
+                        Water - An annoying variable that has to be understood
+                      </Link>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#F9D923" }} />
+                      <Link href="/the-information-zone/tea/fundamentals/leaves" className="hover:underline">
+                      The function of tea leaves, and their key components
+                      </Link>
+                    </li>
+                  </ul>
+                  <div className="mt-auto pt-4">
+                    <Button asChild variant="outline" size="sm" className="w-full h-10">
+                      <Link href="/the-information-zone/tea/fundamentals">Learn More</Link>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
             </div>
 
             <div className="mt-12 flex justify-center">
