@@ -85,9 +85,9 @@ export default function DairyMilkPage() {
 
             <div className="mt-12 flex justify-center">
               <Button asChild variant="outline" className="gap-2">
-                <Link href="/the-information-zone/tea">
+                <Link href="/the-information-zone/water">
                   <ArrowLeft className="h-4 w-4" />
-                  Back to Tea
+                  Back to Water
                 </Link>
               </Button>
             </div>
