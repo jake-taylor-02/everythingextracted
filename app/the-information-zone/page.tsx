@@ -43,8 +43,8 @@ export default function InformationZonePage() {
       accentColor: "#36AE7C", // Green
       subpages: [
         {
-          title: "Coming soon",
-          href: "/the-information-zone/water",
+          title: "The Fundamentals of Water",
+          href: "/the-information-zone/water/fundamentals",
           color: "#36AE7C", // Green (3rd)
         },
       ],

@@ -32,7 +32,7 @@ export default function CoconutMilkPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">onstructing your own water - is it worth all of the fuss?</h1>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Constructing your own water - is it worth all of the fuss?</h1>
               </div>
             </div>
 
