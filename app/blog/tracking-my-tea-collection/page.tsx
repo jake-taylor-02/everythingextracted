@@ -1,7 +1,39 @@
+"use client"
+
 import Link from "next/link"
 import { ArrowLeft, Calendar, Clock, ChevronLeft } from "lucide-react"
+import { useEffect, useRef } from "react"
 
 import { Button } from "@/components/ui/button"
+
+function FlourishEmbed() {
+  const containerRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    if (containerRef.current) {
+      const iframe = document.createElement("iframe")
+      iframe.src = "https://flo.uri.sh/visualisation/24986922/embed"
+      iframe.title = "Interactive or visual content"
+      iframe.className = "flourish-embed-iframe"
+      iframe.frameBorder = "0"
+      iframe.scrolling = "no"
+      iframe.style.width = "100%"
+      iframe.style.height = "600px"
+      iframe.sandbox.add(
+        "allow-same-origin",
+        "allow-forms",
+        "allow-scripts",
+        "allow-downloads",
+        "allow-popups",
+        "allow-popups-to-escape-sandbox",
+        "allow-top-navigation-by-user-activation"
+      )
+      containerRef.current.appendChild(iframe)
+    }
+  }, [])
+
+  return <div ref={containerRef} />
+}
 
 export default function SamplePostPage() {
   return (
@@ -94,15 +126,7 @@ export default function SamplePostPage() {
             </p>
           </div>
 
-          <iframe
-            src="https://flo.uri.sh/visualisation/24986922/embed"
-            title="Interactive or visual content"
-            className="flourish-embed-iframe"
-            frameBorder="0"
-            scrolling="no"
-            style={{ width: "100%", height: "600px" }}
-            sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"
-          />
+          <FlourishEmbed />
 
           <div style={{ width: "100%", marginTop: "4px", textAlign: "right" }}>
             <a
