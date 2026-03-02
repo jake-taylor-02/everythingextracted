@@ -56,12 +56,6 @@ export default function WaterPage() {
                         Water - An annoying variable that has to be understood
                       </Link>
                     </li>
-                    <li className="flex items-start gap-2">
-                      <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#F9D923" }} />
-                      <Link href="/the-information-zone/tea/fundamentals/leaves" className="hover:underline">
-                      The function of tea leaves, and their key components
-                      </Link>
-                    </li>
                   </ul>
                   <div className="mt-auto pt-4">
                     <Button asChild variant="outline" size="sm" className="w-full h-10">
