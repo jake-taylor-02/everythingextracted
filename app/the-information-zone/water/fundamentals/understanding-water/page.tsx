@@ -32,7 +32,7 @@ export default function CoconutMilkPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Coconut Milk</h1>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Water - An annoying variable that has to be understood</h1>
               </div>
             </div>
 
@@ -42,9 +42,9 @@ export default function CoconutMilkPage() {
 
             <div className="mt-12 flex justify-center">
               <Button asChild variant="outline" className="gap-2 mr-4">
-                <Link href="/the-information-zone/milk/plant-based-milk">
+                <Link href="/the-information-zone/water/fundamentals">
                   <ArrowLeft className="h-4 w-4" />
-                  Back to Plant-Based Milk
+                  Back to The Fundamentals of Water
                 </Link>
               </Button>
             </div>
