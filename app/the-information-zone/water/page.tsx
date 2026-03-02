@@ -52,7 +52,7 @@ export default function WaterPage() {
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
                       <ArrowRight className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: "#EB5353" }} />
-                      <Link href="/the-information-zone/tea/fundamentals/overview" className="hover:underline">
+                      <Link href="/the-information-zone/water/fundamentals/understanding-water" className="hover:underline">
                         Water - An annoying variable that has to be understood
                       </Link>
                     </li>
