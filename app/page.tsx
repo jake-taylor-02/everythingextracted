@@ -196,7 +196,7 @@ export default function Home() {
                 <CardContent className="p-4 flex-grow">
                   <p className="text-sm">
                     Hi, I'm Jake! I'm a coffee and tea enthusiast, barista, and author of everythingextracted.com, where
-                    my aim is to make information about the industry more accessible, organised, and visual.
+                    my aim is to write interesting articles on lesser discussed beverage related topics.
                   </p>
                 </CardContent>
                 <CardFooter className="p-4 bg-gray-50">
