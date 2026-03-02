@@ -34,7 +34,6 @@ const websites = [
     description:
       "Allows you to filter by different origins, roast levels, varieties, tasting notes, and more. I wish that I discovered this website earlier, there's no site that comes close to displaying this level of information",
     category: "Coffee",
-    tags: ["Purchasing"],
   },
   {
     name: "International Coffee Organization",
@@ -60,7 +59,6 @@ const websites = [
       </>
     ),
     category: "Coffee",
-    tags: ["Education", "Industry", "Research"],
   },
   {
     name: "Specialty Coffee Association",
@@ -69,7 +67,6 @@ const websites = [
     description:
       "The Specialty Coffee Association (SCA) is a global organization dedicated to advancing and promoting specialty coffee.",
     category: "Education",
-    tags: ["Industry", "Standards", "Certification", "Events"],
   },
   {
     name: "World Coffee Research",
@@ -77,7 +74,6 @@ const websites = [
     tagline: "Scientific research for the global coffee industry",
     description: "Resources include a catalog of varieties, reports, and more.",
     category: "Research",
-    tags: ["Science", "Varieties", "Agriculture", "Sustainability"],
   },
   {
     name: "Coffee Lit Review",
@@ -85,7 +81,6 @@ const websites = [
     tagline: "Academic coffee research repository",
     description: "Research papers discussed on the Coffee Lit Review podcast",
     category: "Research",
-    tags: ["Academic", "Science", "Podcast", "Literature"],
   },
   {
     name: "Robert McKeon Aloe's Coffee Articles",
@@ -93,7 +88,6 @@ const websites = [
     tagline: "Data science and coffee analysis",
     description: "Articles by Robert McKeon Aloe, lots of articles and data science relating to coffee",
     category: "Coffee",
-    tags: ["Data Science", "Analysis", "Research", "Articles"],
   },
   {
     name: "Christopher Feran's Blog",
@@ -101,7 +95,6 @@ const websites = [
     tagline: "Insights from a coffee professional",
     description: "Coffee blog with professional insights and industry perspectives",
     category: "Coffee",
-    tags: ["Blog", "Industry", "Professional"],
   },
   {
     name: "Honest Coffee Guide",
@@ -109,7 +102,6 @@ const websites = [
     tagline: "A selection of online coffee tools",
     description: "Grind size charts for many grinders, brew recipe timers, equipment reviews and more",
     category: "Coffee",
-    tags: ["Blog", "Industry", "Professional"],
   },
 ]
 
