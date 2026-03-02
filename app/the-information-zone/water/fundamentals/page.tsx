@@ -63,7 +63,7 @@ export default function DairyMilkPage() {
 
               <Card className="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md hover:-translate-y-1 duration-300 flex flex-col">
                 <CardHeader className="p-6 pb-0">
-                  <CardTitle>The state of water in the UK</CardTitle>
+                  <CardTitle>DIY Water - Is it worth all of the fuss?</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 pt-4 flex-grow">
                   <p className="min-h-[96px]">Coming soon...</p>
