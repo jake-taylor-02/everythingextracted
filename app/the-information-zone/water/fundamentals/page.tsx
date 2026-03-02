@@ -51,7 +51,7 @@ export default function DairyMilkPage() {
                 <CardFooter className="p-6 pt-0">
                   <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">
                     <Link
-                      href="/the-information-zone/tea/fundamentals/overview"
+                      href="/the-information-zone/tea/fundamentals/understanding-water"
                       className="flex items-center justify-center"
                     >
                       Read More
@@ -71,7 +71,7 @@ export default function DairyMilkPage() {
                 <CardFooter className="p-6 pt-0">
                   <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">
                     <Link
-                      href="/the-information-zone/water/fundamentals/leaves"
+                      href="/the-information-zone/water/fundamentals/constructing-your-own-water"
                       className="flex items-center justify-center"
                     >
                       Read More
