@@ -57,8 +57,7 @@ export default function AboutPage() {
                       than water, things changed and I'm very enthusiastic about all things coffee, tea, cafe culture and more.
                     </p>
                     <p>
-                      I started working as a Barista in September 2024, and built this website to create a platform for others to read about the history, science and culture around the beverages that we consume. I've also invested in some equipment that
-                      should allow me to work on and publish some fun projects over the next few months.
+                      I started working as a Barista in September 2024, and built this website to share new articles that I write, interesting resources that I have found, so have a click around and learn something new!
                     </p>
                   </div>
                 </CardContent>
