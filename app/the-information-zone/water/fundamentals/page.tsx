@@ -63,7 +63,7 @@ export default function DairyMilkPage() {
 
               <Card className="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md hover:-translate-y-1 duration-300 flex flex-col">
                 <CardHeader className="p-6 pb-0">
-                  <CardTitle>Water in the UK - what options do we have?</CardTitle>
+                  <CardTitle>The state of water in the UK</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 pt-4 flex-grow">
                   <p className="min-h-[96px]">Coming soon...</p>
@@ -71,7 +71,7 @@ export default function DairyMilkPage() {
                 <CardFooter className="p-6 pt-0">
                   <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">
                     <Link
-                      href="/the-information-zone/tea/fundamentals/leaves"
+                      href="/the-information-zone/water/fundamentals/leaves"
                       className="flex items-center justify-center"
                     >
                       Read More
