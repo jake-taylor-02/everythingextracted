@@ -82,7 +82,7 @@ export default function AboutPage() {
                           <p className="font-medium">First Espresso</p>
                           <p className="text-sm text-muted-foreground">
                             After an all nighter in Budapest, I was reccomended a double espresso to remain awake for
-                            the day. That has turned out to be quite an expensive recommendation.
+                            the day. That has turned out to be quite an expensive recommendation...
                           </p>
                         </div>
                       </li>
