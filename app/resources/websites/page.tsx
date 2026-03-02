@@ -32,7 +32,7 @@ const websites = [
     url: "https://coffeediff.co.uk/",
     tagline: "A comparison site of most coffee roasters in the UK",
     description:
-      "Allows you to filter by different origins, roast levels, varieties, tasting notes, and more. I wish that I discovered this website earlier, there's no site that comes close to displaying this level of information",
+      "Allows you to filter by different origins, roast levels, varieties, tasting notes, and more.",
     category: "Coffee",
   },
   {
