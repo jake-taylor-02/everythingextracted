@@ -33,20 +33,19 @@ export default function DairyMilkPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">The Fundamentals of Tea</h1>
-                <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">An overview of everything</p>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">The Fundamentals of Water</h1>
+                <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">The interesting science behind what comes out of our taps</p>
               </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <Card className="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md hover:-translate-y-1 duration-300 flex flex-col">
                 <CardHeader className="p-6 pb-0">
-                  <CardTitle>Tea - what it is, where it's grown and consumed, and its key contents</CardTitle>
+                  <CardTitle>Water - An annoying variable that has to be understood</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 pt-4 flex-grow">
                   <p className="min-h-[96px]">
-                    What is tea, where is it produced and consumed, what are the different subtypes and what does it
-                    contain?
+                    Delving into the chemistry of this essential for life fluid
                   </p>
                 </CardContent>
                 <CardFooter className="p-6 pt-0">
