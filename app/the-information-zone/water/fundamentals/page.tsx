@@ -66,7 +66,7 @@ export default function DairyMilkPage() {
                   <CardTitle>Constructing your own water - is it worth all of the fuss?</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6 pt-4 flex-grow">
-                  <p className="min-h-[96px]">Coming soon...</p>
+                  <p className="min-h-[96px]">How to mineralise your own water at home</p>
                 </CardContent>
                 <CardFooter className="p-6 pt-0">
                   <Button asChild variant="ghost" className="gap-2 px-4 group-hover:bg-muted/50 h-10 w-full">
