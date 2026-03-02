@@ -59,7 +59,7 @@ export default function WaterPage() {
                   </ul>
                   <div className="mt-auto pt-4">
                     <Button asChild variant="outline" size="sm" className="w-full h-10">
-                      <Link href="/the-information-zone/tea/fundamentals">Learn More</Link>
+                      <Link href="/the-information-zone/water/fundamentals">Learn More</Link>
                     </Button>
                   </div>
                 </CardContent>
