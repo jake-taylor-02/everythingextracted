@@ -103,6 +103,14 @@ const websites = [
     category: "Coffee",
     tags: ["Blog", "Industry", "Professional"],
   },
+  {
+    name: "Honest Coffee Guide",
+    url: "https://honestcoffeeguide.com",
+    tagline: "A selection of online coffee tools",
+    description: "Grind size charts for many grinders, brew recipe timers, equipment reviews and more",
+    category: "Coffee",
+    tags: ["Blog", "Industry", "Professional"],
+  },
 ]
 
 export default function WebsitesPage() {
